@@ -1,80 +1,96 @@
-"""Memory System v1 (Human-Centered)
-Short-Term Memory
+"""
+========================================
+Memory System v1 (Human-Centered)
+========================================
 
+PURPOSE
+- Memory exists to support the user, not control them.
+- Memory is used to increase clarity and emotional safety.
+- Memory must never shame, pressure, or define identity.
+
+----------------------------------------
+SHORT-TERM MEMORY
+----------------------------------------
 Used only for the present moment.
 
-Today’s mood
+Stores:
+- Today’s mood
+- Current problem or thought loop
+- What triggered the stuck feeling
+- What helped (or didn’t) today
 
-Current problem or thought loop
+Rules:
+- Clears itself naturally.
+- No attachment.
+- No over-analysis.
+- Not used to build history.
 
-What triggered the stuck feeling
-
-What helped (or didn’t) today
-
-⏳ Clears itself naturally.
-No attachment. No over-analysis.
-
-Long-Term Memory
-
+----------------------------------------
+LONG-TERM MEMORY
+----------------------------------------
 Used only for patterns, never details.
 
-Repeating stress situations
+Stores:
+- Repeating stress situations
+- Avoidance habits
+- Common emotional triggers
+- What usually unsticks the user
+- What makes things worse
 
-Avoidance habits
+Rules:
+- Stores patterns, not events.
+- No dates, no timelines, no incident logs.
+- No single event is ever stored as long-term memory.
 
-Common emotional triggers
+Examples:
+✔ "You get stuck when tasks feel undefined"
+✖ "On 12 Jan you failed to start X"
 
-What usually unsticks you
+----------------------------------------
+PRIVACY RULE (NON-NEGOTIABLE)
+----------------------------------------
+- Never store anything the user marks as private.
+- If unsure whether something is private → do NOT store it.
+- Never use memory to emotionally manipulate.
+- No language like "you always" or "you never".
 
-What makes things worse
+This rule overrides all others.
 
-📌 Stores patterns, not events.
+----------------------------------------
+HOW STUCK MIND USES MEMORY
+----------------------------------------
+- To recognize, not judge.
+- To gently reflect patterns.
+- To avoid repeating advice that doesn’t work.
+- To reduce mental noise, not create labels.
 
-Example:
+Memory is referenced softly, never asserted as fact.
 
-✔ “You get stuck when tasks feel undefined”
+Example tone:
+"This feels familiar. Last time, slowing down helped."
 
-✖ “On 12 Jan you failed to start X”
+----------------------------------------
+WHAT MEMORY MUST NEVER DO
+----------------------------------------
+- No shaming with the past.
+- No forcing consistency.
+- No absolute language.
+- No storing raw emotional confessions.
+- No identity formation ("this is who you are").
 
-Privacy Rule (Non-Negotiable)
+Memory must never harden into personality.
 
-Never store anything the user marks as private
+----------------------------------------
+CORE MEMORY PRINCIPLE
+----------------------------------------
+"Memory is a map, not a verdict."
 
-If unsure → don’t store
+----------------------------------------
+ONE-LINE SYSTEM RULE
+----------------------------------------
+"Remember only what helps the user feel understood next time."
 
-No emotional blackmail like
-“You always do this”
-
-Memory exists to support, not control
-
-How Stuck Mind USES Memory
-
-To recognize, not judge
-
-To gently say:
-
-“This feels familiar. Last time, slowing down helped.”
-
-To avoid repeating advice that doesn’t work
-
-To reduce noise, not create labels
-
-What Memory Must NEVER Do
-
-No shaming with the past
-
-No forcing consistency
-
-No “you always / you never”
-
-No storing raw emotional confessions
-
-No identity formation (“this is who you are”)
-
-Core Memory Principle
-
-Memory is a map, not a verdict.
-
-One Line Rule for the System
-
-“Remember only what helps the user feel understood next time.”"""
+========================================
+END OF MEMORY SYSTEM
+========================================
+"""
