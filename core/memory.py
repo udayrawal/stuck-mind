@@ -94,3 +94,8 @@ ONE-LINE SYSTEM RULE
 END OF MEMORY SYSTEM
 ========================================
 """
+
+
+def save_thought(text):
+    with open("data/journal.txt", "a") as f:
+        f.write(text + "\n")
