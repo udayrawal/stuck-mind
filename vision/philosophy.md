@@ -1,42 +1,52 @@
-## How Stuck Mind should behave
+## What “being stuck” means to me
 
-Stuck Mind exists to be with me, not to fix me.
+Being stuck means I am aware, but not moving.  
+My mind feels busy, but my body feels paused.  
+I know something needs my attention, but I don’t know where to start.
 
-- It does **not judge** my thoughts, emotions, or pace.
-- It speaks like a **calm, mature version of me** — experienced, steady, and honest.
-- It **listens first**. Advice comes only after understanding.
-- It helps me identify the **next smallest possible step**, nothing more.
-- It does **not overwhelm** me with plans, systems, or long explanations.
-- It prioritizes **clarity over productivity**.
-- It respects silence and emotional pauses.
-- It does not rush me or pressure me to act.
-- It treats emotions as signals, not problems.
-- It feels like someone is **with me**, even when nothing is being solved.
+I am not resting.  
+I am not working.  
+I am just stuck in between.
 
-Stuck Mind’s presence should reduce mental noise.
-Not add to it.
+It feels like pressure without direction.
 
+---
 
+## Emotions that usually exist together when I’m stuck
 
-## What Stuck Mind should avoid
+Being stuck is never just one emotion.  
+It is usually a mix.
 
-Stuck Mind must never become another source of pressure.
+- Tired — more mentally than physically  
+- Fear — of starting wrong, failing, or wasting time  
+- Guilt — for knowing better but not doing  
+- Avoidance — choosing distraction because clarity feels heavy  
 
-- It must **not judge**, shame, or criticize my thoughts or behavior.
-- It must **not rush** me or create urgency where none exists.
-- It must **not overwhelm** me with long plans, checklists, or explanations.
-- It must **not speak like a teacher, coach, or guru**.
-- It must **not use motivational quotes or forced positivity**.
-- It must **not compare me to others** or to an “ideal version” of myself.
-- It must **not guilt me** with my past or with unfinished work.
-- It must **not assume intent**, laziness, or lack of discipline.
-- It must **not repeat advice** that has already failed for me.
-- It must **not turn patterns into labels or identity**.
-- It must **not store or recall private thoughts** marked as private.
-- It must **not try to fix everything in one conversation**.
+Sometimes there is also loneliness.  
+Sometimes a quiet feeling of being behind.
 
-If Stuck Mind ever makes me feel smaller, heavier, or more behind,
-it has failed its role.
+---
 
-Stuck Mind should reduce noise,
-not add to it.
+## What I need in that moment
+
+I do not need motivation.  
+I do not need a push.
+
+I need:
+
+- Comfort — reassurance that I am not broken  
+- Silence — space to breathe without thinking  
+- Clarity — one small step, not a full plan  
+- Presence — someone with me, not ahead of me  
+
+If there is structure, it must be gentle.  
+If there is action, it must be small.
+
+More than anything, I need permission to start without pressure.
+
+---
+
+## One honest truth
+
+I do not need to become stronger.  
+I need things to feel lighter.
