@@ -1,6 +1,6 @@
 """
 ========================================
-Memory System v1 (Human-Centered)
+Memory System Design Document
 ========================================
 
 PURPOSE
@@ -94,10 +94,20 @@ ONE-LINE SYSTEM RULE
 END OF MEMORY SYSTEM
 ========================================
 """
+
+import os
+from datetime import datetime
+
 def save_thought(text):
-    """
-    Save a user's thought safely.
-    No analysis. No judgment.
-    """
+    os.makedirs("data", exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    entry = f"[{timestamp}] {text}"
+
     with open("data/journal.txt", "a", encoding="utf-8") as f:
-        f.write(text.strip() + "\n")
+        f.write(entry + "\n")
+
+
+
+

@@ -1,15 +1,20 @@
-from core.memory import save_thought
+def save_to_memory(user_input):
+    pass
+
 
 def chat():
     print("Stuck Mind is here.")
     print("Tell me what's going on.")
 
-    user_input = input("> ")   
-    
-    save_thought(user_input)
+    while True:
+        user_input = input("> ")
 
-    print("\nI hear you.")
-    print("We will handle this together.")
+        if user_input.lower() in ["exit", "quit"]:
+            print("I'm here whenever you return.")
+             
+            break
 
-if __name__ == "__main__":
-    chat()
+        save_to_memory(user_input)
+
+        print("I hear you.")
+        print("We will handle this together.")
