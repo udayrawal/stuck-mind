@@ -95,19 +95,25 @@ END OF MEMORY SYSTEM
 ========================================
 """
 
-import os
 from datetime import datetime
+import json
+from pathlib import Path
 
-def save_thought(text):
-    os.makedirs("data", exist_ok=True)
+MEMORY_FILE = Path("data/memory.json")
 
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+def save_entry(text: str):
+    entry = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "text": text
+    }
 
-    entry = f"[{timestamp}] {text}"
+    if MEMORY_FILE.exists():
+        data = json.loads(MEMORY_FILE.read_text())
+    else:
+        data = []
 
-    with open("data/journal.txt", "a", encoding="utf-8") as f:
-        f.write(entry + "\n")
-
+    data.append(entry)
+    MEMORY_FILE.write_text(json.dumps(data, indent=2))
 
 
 
