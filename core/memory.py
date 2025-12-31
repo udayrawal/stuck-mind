@@ -94,12 +94,13 @@ ONE-LINE SYSTEM RULE
 END OF MEMORY SYSTEM
 ========================================
 """
-
 from datetime import datetime
 import json
 from pathlib import Path
 
-MEMORY_FILE = Path("data/memory.json")
+MEMORY_FILE = Path("data/journal_entries.json")
+
+# -------- Long-term memory (persistent, append-only) --------
 
 def save_entry(text: str):
     entry = {
@@ -116,4 +117,15 @@ def save_entry(text: str):
     MEMORY_FILE.write_text(json.dumps(data, indent=2))
 
 
+# -------- Short-term memory (session only) --------
 
+_short_term_buffer = []
+
+def save_short_term(text: str):
+    _short_term_buffer.append(text)
+
+def get_short_term_context(limit=3):
+    return _short_term_buffer[-limit:]
+
+def clear_short_term():
+    _short_term_buffer.clear()
