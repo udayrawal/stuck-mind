@@ -1,21 +1,11 @@
-from memory import save_entry
+from core.memory import Memory
 
+memory = Memory()
 
-def chat_loop():
-    print("Stuck Mind is here.")
-    print("Say anything. Type 'exit' to stop.")
+def process_user_input(text: str):
+    memory.save_entry(text)
+    memory.save_short(text)
 
-    while True:
-        user_input = input("> ")
+    context = memory.get_context()
+    return context
 
-        if user_input.lower() in ["exit", "quit"]:
-            print("I'm here whenever you return.")
-            break
-
-        save_entry(user_input)
-
-        print("I hear you.")
-
-
-if __name__ == "__main__":
-    chat_loop()

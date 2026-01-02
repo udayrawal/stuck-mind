@@ -94,38 +94,73 @@ ONE-LINE SYSTEM RULE
 END OF MEMORY SYSTEM
 ========================================
 """
+
 from datetime import datetime
 import json
 from pathlib import Path
 
-MEMORY_FILE = Path("data/journal_entries.json")
-
-# -------- Long-term memory (persistent, append-only) --------
-
-def save_entry(text: str):
-    entry = {
-        "timestamp": datetime.utcnow().isoformat(),
-        "text": text
-    }
-
-    if MEMORY_FILE.exists():
-        data = json.loads(MEMORY_FILE.read_text())
-    else:
-        data = []
-
-    data.append(entry)
-    MEMORY_FILE.write_text(json.dumps(data, indent=2))
+MEMORY_FILE = Path("data/memory.json")
 
 
-# -------- Short-term memory (session only) --------
+class Memory:
+    def __init__(self):
+        # Session-only memory
+        self.short_term = []
 
-_short_term_buffer = []
+        # Pattern-only memory
+        self.long_term = []
 
-def save_short_term(text: str):
-    _short_term_buffer.append(text)
+    # ---------- RAW JOURNAL (PRIVATE, APPEND-ONLY) ----------
+    def save_entry(self, text: str):
+        """
+        Stores raw user text.
+        No interpretation.
+        Never used directly by AI responses.
+        """
+        entry = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "text": text
+        }
 
-def get_short_term_context(limit=3):
-    return _short_term_buffer[-limit:]
+        if MEMORY_FILE.exists():
+            data = json.loads(MEMORY_FILE.read_text())
+        else:
+            data = []
 
-def clear_short_term():
-    _short_term_buffer.clear()
+        data.append(entry)
+        MEMORY_FILE.write_text(json.dumps(data, indent=2))
+
+    # ---------- SHORT-TERM MEMORY ----------
+    def save_short(self, text: str):
+        """
+        Stores immediate context for current session.
+        """
+        self.short_term.append(text)
+
+        # Optional hard limit
+        if len(self.short_term) > 5:
+            self.short_term = self.short_term[-5:]
+
+    def clear_short(self):
+        """
+        Clears session memory naturally.
+        """
+        self.short_term = []
+
+    # ---------- LONG-TERM MEMORY (PATTERNS ONLY) ----------
+    def save_long(self, pattern: str):
+        """
+        Stores abstract patterns only.
+        Must not include events, dates, or identity.
+        """
+        self.long_term.append(pattern)
+
+    # ---------- CONTEXT FOR AI ----------
+    def get_context(self):
+        """
+        Returns safe, minimal context for the AI.
+        """
+        return {
+            "recent_context": self.short_term[-3:],
+            "patterns": self.long_term
+        }
