@@ -1,3 +1,8 @@
+# NOTE:
+# This module stores memory.
+# It does not decide what SHOULD be remembered.
+# That responsibility belongs to MemoryInterface / MemoryController.
+
 """
 ========================================
 Memory System Design Document

@@ -50,6 +50,28 @@ Memory is used to support me, not to trap me in the past.
 
 ---
 
+### Memory Flow (v1)
+
+User input  
+→ MemoryController  
+→ MemoryInterface (rules)  
+→ Journal / Memory  
+→ Context  
+→ Chat  
+
+This flow enforces clear separation of responsibility:
+
+- Chat handles interaction only  
+- MemoryController routes data  
+- MemoryInterface decides what is allowed  
+- Journal and Memory store data  
+- Context is returned without interpretation  
+
+No emotion detection.  
+No intelligence.  
+Only safe, structured data flow.
+
+
 ## 4. Guide (Not a Boss)
 
 This is how Stuck Mind helps me move forward.
