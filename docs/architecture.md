@@ -37,6 +37,17 @@ Its job is only to understand my state, not to label me.
 
 ---
 
+### Emotional Interpreter (v1)
+
+- Rule-based
+- Non-diagnostic
+- Non-persistent
+- Does not label the user
+- Does not store emotional state
+- Feeds presence-only responses
+- Influences tone, not behavior
+
+
 ## 3. Memory System
 
 Memory exists to build trust, not control.

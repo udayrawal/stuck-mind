@@ -22,12 +22,12 @@ class MemoryController:
         """
 
         # Always store raw text in the journal
-        self.journal.save(text)
+        self.journal.save_entry(text)
 
         # Short-term memory (session-level, if allowed)
-        if self.rules.allow_short_term(text):
+        if self.rules and self.rules.allow_short_term(text):
             self.memory.save_short(text)
 
         # Long-term memory (patterns only, if allowed)
-        if self.rules.allow_long_term(text):
+        if self.rules and self.rules.allow_long_term(text):
             self.memory.save_long(text)

@@ -128,7 +128,8 @@ class Memory:
         }
 
         if MEMORY_FILE.exists():
-            data = json.loads(MEMORY_FILE.read_text())
+            content = MEMORY_FILE.read_text().strip()
+            data = json.loads(content) if content else []
         else:
             data = []
 
