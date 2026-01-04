@@ -1,9 +1,30 @@
-[{
-        "timestamp": "2026-01-03T19:46:44.919275",
-        "text": "HI I'm Uday "
-    },
-    {
-        "timestamp": "2026-01-03T19:50:12.369440",
-        "text": "I am good btw."
-    }
+[
+  {
+    "timestamp": "2026-01-03T19:46:44.919275",
+    "text": "HI I'm Uday "
+  },
+  {
+    "timestamp": "2026-01-03T19:50:12.369440",
+    "text": "I am good btw."
+  },
+  {
+    "timestamp": "2026-01-04T20:08:10.088990",
+    "text": "Hi my name is uday and this is day 12 at 1:30am "
+  },
+  {
+    "timestamp": "2026-01-04T20:08:30.250828",
+    "text": "exit "
+  },
+  {
+    "timestamp": "2026-01-04T20:09:23.863675",
+    "text": "exit "
+  },
+  {
+    "timestamp": "2026-01-04T20:09:26.004429",
+    "text": "exit "
+  },
+  {
+    "timestamp": "2026-01-04T20:09:28.369023",
+    "text": "exit "
+  }
 ]

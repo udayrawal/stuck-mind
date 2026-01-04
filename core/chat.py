@@ -1,4 +1,3 @@
-from urllib import response
 from memory_controller import MemoryController
 from memory import Memory
 from emotion_interpreter import EmotionalInterpreter
@@ -32,19 +31,28 @@ def chat_loop():
             print("I'm here whenever you return.")
             break
 
-        # 1. Silent emotional inference (no storage, no output)
+        # 1. Silent emotional inference
         state = emotion_interpreter.infer(user_input)
 
-        # 2. Memory routing (unchanged)
+        # 2. Memory routing
         memory_controller.process_input(user_input)
 
-        # 3. Context retrieval (unchanged)
-        context = memory.get_context()
-
-        # 4. Neutral presence response (unchanged)
+        # 3. Presence-only response
         response = RESPONSES.get(state, RESPONSES["neutral"])
         print(response)
 
+        # 4. Opt-in prompt for long-term memory (NEW)
+        candidate = memory_controller.long_term_candidate
+        if candidate:
+            choice = input(
+                "This feels familiar. Would you like me to remember this pattern? [y/n] "
+            ).strip().lower()
+
+            if choice == "y":
+                memory.save_long(candidate)
+
+            # Clear candidate either way (no pressure, no repeat)
+            memory_controller.long_term_candidate = None
 
 
 if __name__ == "__main__":
