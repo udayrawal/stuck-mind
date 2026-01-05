@@ -1,14 +1,9 @@
 from memory_controller import MemoryController
 from memory import Memory
 from emotion_interpreter import EmotionalInterpreter
-
-
-RESPONSES = {
-    "tired": "I hear how drained this feels.",
-    "overwhelmed": "That sounds like a lot to carry right now.",
-    "anxious": "It makes sense that this feels uneasy.",
-    "neutral": "I’m here. Go on."
-}
+from response_guide import ResponseGuide
+# PatternSuggester is optional for now
+# from pattern_suggester import PatternSuggester
 
 
 def chat_loop():
@@ -19,29 +14,38 @@ def chat_loop():
     memory_controller = MemoryController(
         journal=memory,
         memory=memory,
-        rules=None  # placeholder for now
+        rules=None  # MemoryRules will be plugged in later
     )
 
     emotion_interpreter = EmotionalInterpreter()
+    response_guide = ResponseGuide()
+    # pattern_suggester = PatternSuggester()
 
     while True:
-        user_input = input("> ")
+        user_input = input("> ").strip().lower()
 
-        if user_input.lower() in ["exit", "quit"]:
-            print("I'm here whenever you return.")
+        if user_input in ["exit", "quit", "i am done for today"]:
+            print("I am here always for you. If you need anything.")
             break
 
-        # 1. Silent emotional inference
-        state = emotion_interpreter.infer(user_input)
-
-        # 2. Memory routing
+        # 1. Memory routing (raw text only)
         memory_controller.process_input(user_input)
 
-        # 3. Presence-only response
-        response = RESPONSES.get(state, RESPONSES["neutral"])
+        # 2. Silent emotional inference (not stored)
+        state = emotion_interpreter.infer(user_input)
+
+        # 3. Optional pattern suggestion (future-safe)
+        # pattern = pattern_suggester.suggest(memory.get_context()["recent_context"])
+
+        # 4. Generate presence-only response
+        response = response_guide.respond(
+            state=state,
+            context=memory.get_context()
+        )
+
         print(response)
 
-        # 4. Opt-in prompt for long-term memory (NEW)
+        # 5. Opt-in for long-term memory (if candidate exists)
         candidate = memory_controller.long_term_candidate
         if candidate:
             choice = input(
@@ -51,7 +55,6 @@ def chat_loop():
             if choice == "y":
                 memory.save_long(candidate)
 
-            # Clear candidate either way (no pressure, no repeat)
             memory_controller.long_term_candidate = None
 
 
