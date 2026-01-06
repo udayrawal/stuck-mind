@@ -40,3 +40,9 @@ class MemoryController:
 
             if pattern and self.rules and self.rules.should_store_long_term(pattern):
                 self.long_term_candidate = pattern
+    
+    def end_session(self):
+        """
+        Clears session-scoped memory at session end.
+        """
+        self.memory.clear_short()
