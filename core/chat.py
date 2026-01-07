@@ -19,11 +19,11 @@ def on_session_end(memory_controller):
     memory_controller.end_session()
 
 
-
 def chat_loop():
     on_session_start()
 
     print("Stuck Mind is here.")
+    print("Hi!, Uday go ahead, share whatever is on your mind.")
 
     memory = Memory()
     memory_controller = MemoryController(
@@ -39,25 +39,31 @@ def chat_loop():
         raw_input = input("> ")
         user_input = raw_input.strip().lower()
 
-        if user_input in ["exit", "quit",  "bye"]:
+        if user_input in ["bye"]:
             on_session_end(memory_controller)
             print("I am here always for you. If you need anything.")
             break
 
-        # 1. Route raw input through memory controller
+        # Memory routing (must always run)
         memory_controller.process_input(raw_input)
 
-        # 2. Infer emotion silently
-        state = emotion_interpreter.infer(raw_input)
+        try:
+            # Interpreter
+            state = emotion_interpreter.infer(raw_input)
 
-        # 3. Generate presence-only response
-        response = response_guide.respond(
-            state=state,
-            context=memory.get_context()
-        )
-        print(response)
+            # Guide
+            response = response_guide.respond(
+                state=state,
+                context=memory.get_context()
+            )
 
-        # 4. Opt-in for long-term memory (if candidate exists)
+            print(response)
+
+        except Exception:
+            # Safety fallback — presence only
+            print("I’m here. We can take this slowly.")
+
+        # Opt-in for long-term memory (if candidate exists)
         candidate = memory_controller.long_term_candidate
         if candidate:
             choice = input(

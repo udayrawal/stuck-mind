@@ -34,13 +34,18 @@ class MemoryController:
             self.memory.save_short(text)
 
         # 3. Suggest long-term pattern (NO storage)
-        if self.suggester:
+        if self.suggester and self.rules:
             context = self.memory.get_context().get("recent_context", [])
             pattern = self.suggester.suggest(context)
 
-            if pattern and self.rules and self.rules.should_store_long_term(pattern):
+            # Guard: allow suggestion only if rule allows and not duplicate
+            if (
+                pattern
+                and self.rules.should_store_long_term(pattern)
+                and pattern not in self.memory.long_term
+            ):
                 self.long_term_candidate = pattern
-    
+
     def end_session(self):
         """
         Clears session-scoped memory at session end.

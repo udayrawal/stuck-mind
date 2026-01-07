@@ -1,18 +1,38 @@
 class ResponseGuide:
     """
     Produces presence-first responses.
-    Listens more than it speaks.
-    Never asks meta-questions.
+    Guards against advice, absolutes, and imperatives.
     """
+
+    FORBIDDEN_WORDS = [
+        "always",
+        "never",
+        "should",
+        "try",
+        "do this",
+        "must",
+        "next step"
+    ]
 
     def respond(self, state: str, context: dict) -> str:
         if state == "tired":
-            return "I hear how drained this feels."
+            response = "I hear how drained this feels."
 
-        if state == "overwhelmed":
-            return "That sounds like a lot to carry."
+        elif state == "overwhelmed":
+            response = "That sounds like a lot to carry."
 
-        if state == "anxious":
-            return "I’m here with this."
+        elif state == "anxious":
+            response = "I’m here with this."
 
-        return "I’m listening."
+        else:
+            response = "I’m listening."
+
+        # Guard clause: fallback if unsafe language detected
+        if not self._is_safe(response):
+            return "I’m here. We can continue, or pause."
+
+        return response
+
+    def _is_safe(self, text: str) -> bool:
+        lower = text.lower()
+        return not any(word in lower for word in self.FORBIDDEN_WORDS)
