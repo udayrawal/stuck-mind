@@ -1,3 +1,6 @@
+# Responsibility: Defines memory permission rules; contains no storage or inference logic.
+
+
 class MemoryInterface:
     """
     Decides what is allowed to be remembered.

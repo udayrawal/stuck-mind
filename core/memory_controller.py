@@ -1,3 +1,6 @@
+# Responsibility: Orchestrates memory flow and enforces rules; never interprets or speaks.
+
+
 class MemoryController:
     """
     Orchestrates memory flow.

@@ -1,3 +1,8 @@
+# Responsibility: Generates safe, presence-first responses; contains no advice or memory logic.
+
+
+from typing import Literal 
+
 class ResponseGuide:
     """
     Produces presence-first responses.

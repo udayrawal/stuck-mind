@@ -1,3 +1,6 @@
+# Responsibility: Coordinates session flow and component interaction; contains no business logic.
+
+
 from memory_controller import MemoryController
 from memory import Memory
 from emotion_interpreter import EmotionalInterpreter

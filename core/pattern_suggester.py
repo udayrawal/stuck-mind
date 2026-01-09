@@ -1,3 +1,8 @@
+# Responsibility: Proposes tentative abstract patterns from context; never stores or asserts them.
+
+
+from typing import Literal   
+
 class PatternSuggester:
     """
     Suggests abstract patterns from recent context.

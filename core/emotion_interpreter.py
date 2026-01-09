@@ -1,3 +1,8 @@
+# Responsibility: Infers transient emotional state from text; does not persist or label identity.
+
+
+from typing import Literal 
+
 class EmotionalInterpreter:
     """
     Infers lightweight emotional signals from text.

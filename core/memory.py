@@ -3,6 +3,9 @@
 # It does not decide what SHOULD be remembered.
 # That responsibility belongs to MemoryInterface / MemoryController.
 
+# Responsibility: Stores short-term and long-term memory only; does not decide what should be remembered.
+
+
 """
 ========================================
 Memory System Design Document
@@ -100,9 +103,10 @@ END OF MEMORY SYSTEM
 ========================================
 """
 
+
 from datetime import datetime
-import json
 from pathlib import Path
+import json
 
 MEMORY_FILE = Path("data/memory.json")
 
@@ -170,3 +174,6 @@ class Memory:
             "recent_context": self.short_term[-3:],
             "patterns": self.long_term
         }
+    
+    
+
