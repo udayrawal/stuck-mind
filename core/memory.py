@@ -104,11 +104,7 @@ END OF MEMORY SYSTEM
 """
 
 
-from datetime import datetime
-from pathlib import Path
-import json
-
-MEMORY_FILE = Path("data/memory.json")
+from .config import SHORT_TERM_LIMIT, RECENT_CONTEXT_LIMIT
 
 
 class Memory:
@@ -119,37 +115,15 @@ class Memory:
         # Pattern-only memory
         self.long_term = []
 
-    # ---------- RAW JOURNAL (PRIVATE, APPEND-ONLY) ----------
-    def save_entry(self, text: str):
-        """
-        Stores raw user text.
-        No interpretation.
-        Never used directly by AI responses.
-        """
-        entry = {
-            "timestamp": datetime.utcnow().isoformat(),
-            "text": text
-        }
 
-        if MEMORY_FILE.exists():
-            content = MEMORY_FILE.read_text().strip()
-            data = json.loads(content) if content else []
-        else:
-            data = []
-
-        data.append(entry)
-        MEMORY_FILE.write_text(json.dumps(data, indent=2))
 
     # ---------- SHORT-TERM MEMORY ----------
     def save_short(self, text: str):
-        """
-        Stores immediate context for current session.
-        """
         self.short_term.append(text)
 
-        # Optional hard limit
-        if len(self.short_term) > 5:
-            self.short_term = self.short_term[-5:]
+        if len(self.short_term) > SHORT_TERM_LIMIT:
+            self.short_term = self.short_term[-SHORT_TERM_LIMIT:]
+
 
     def clear_short(self):
         """
@@ -159,19 +133,12 @@ class Memory:
 
     # ---------- LONG-TERM MEMORY (PATTERNS ONLY) ----------
     def save_long(self, pattern: str):
-        """
-        Stores abstract patterns only.
-        Must not include events, dates, or identity.
-        """
         self.long_term.append(pattern)
 
     # ---------- CONTEXT FOR AI ----------
     def get_context(self):
-        """
-        Returns safe, minimal context for the AI.
-        """
         return {
-            "recent_context": self.short_term[-3:],
+            "recent_context": self.short_term[-RECENT_CONTEXT_LIMIT:],
             "patterns": self.long_term
         }
     

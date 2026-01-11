@@ -1,23 +1,8 @@
 # Responsibility: Generates safe, presence-first responses; contains no advice or memory logic.
 
-
-from typing import Literal 
+from .config import ABSOLUTE_WORDS, IMPERATIVE_WORDS, SAFE_FALLBACK_RESPONSE
 
 class ResponseGuide:
-    """
-    Produces presence-first responses.
-    Guards against advice, absolutes, and imperatives.
-    """
-
-    FORBIDDEN_WORDS = [
-        "always",
-        "never",
-        "should",
-        "try",
-        "do this",
-        "must",
-        "next step"
-    ]
 
     def respond(self, state: str, context: dict) -> str:
         if state == "tired":
@@ -34,10 +19,19 @@ class ResponseGuide:
 
         # Guard clause: fallback if unsafe language detected
         if not self._is_safe(response):
-            return "I’m here. We can continue, or pause."
+            return SAFE_FALLBACK_RESPONSE
 
         return response
 
     def _is_safe(self, text: str) -> bool:
         lower = text.lower()
-        return not any(word in lower for word in self.FORBIDDEN_WORDS)
+        
+        if any(word in lower for word in ABSOLUTE_WORDS):
+            return False
+        if any(word in lower for word in IMPERATIVE_WORDS):
+            return False
+        return True
+    
+    
+
+

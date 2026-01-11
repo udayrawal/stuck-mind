@@ -1,10 +1,11 @@
 # Responsibility: Persists raw user input verbatim; append-only and interpretation-free.
 
-
 from datetime import datetime
 import json
+from pathlib import Path
 
-JOURNAL_FILE = ("data/journal_entries.json")
+JOURNAL_FILE = Path("data/journal_entries.json")
+
 
 class Journal:
     def save(self, text: str):

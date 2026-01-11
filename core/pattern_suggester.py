@@ -1,13 +1,9 @@
 # Responsibility: Proposes tentative abstract patterns from context; never stores or asserts them.
 
+from .config import MIN_CONTEXT_FOR_PATTERN
 
-from typing import Literal   
 
 class PatternSuggester:
-    """
-    Suggests abstract patterns from recent context.
-    Suggestions are tentative and non-binding.
-    """
 
     FORBIDDEN_MARKERS = [
         "on ",
@@ -22,9 +18,9 @@ class PatternSuggester:
     ]
 
     def suggest(self, recent_context: list[str]) -> str | None:
-        # Guard 1: not enough data
-        if len(recent_context) < 2:
+        if len(recent_context) < MIN_CONTEXT_FOR_PATTERN:
             return None
+
 
         text = " ".join(recent_context).lower()
         generated_pattern = None
@@ -38,13 +34,11 @@ class PatternSuggester:
         elif "overwhelmed" in text and "too much" in text:
             generated_pattern = "Tasks feel heavier when they are undefined."
 
-        # Guard 2: no pattern detected
         if not generated_pattern:
             return None
 
         candidate = generated_pattern.lower()
 
-        # Guard 3: block dates / events
         if any(marker in candidate for marker in self.FORBIDDEN_MARKERS):
             return None
 

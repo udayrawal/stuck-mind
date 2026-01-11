@@ -11,11 +11,6 @@ class MemoryInterface:
     """
 
     def should_store_short_term(self, text: str) -> bool:
-        """
-        Short-term memory is allowed ONLY if:
-        - It describes a current state (not identity)
-        - It is not marked private
-        """
         if self._is_private(text):
             return False
 
@@ -25,11 +20,9 @@ class MemoryInterface:
         return True
 
     def should_store_long_term(self, pattern: str) -> bool:
-        """
-        Long-term memory is allowed ONLY if:
-        - It describes a pattern, not an event
-        - No dates, names, or specifics
-        """
+        if not pattern.strip():
+            return False
+        
         if self._contains_event_detail(pattern):
             return False
 

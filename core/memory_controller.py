@@ -1,21 +1,10 @@
 # Responsibility: Orchestrates memory flow and enforces rules; never interprets or speaks.
-
+from .memory import Memory
 
 class MemoryController:
-    """
-    Orchestrates memory flow.
-    No interpretation.
-    No intelligence.
-    Enforces memory rules only.
-    """
 
     def __init__(self, journal, memory, rules, suggester=None):
-        """
-        journal: handles raw append-only storage
-        memory: handles short-term storage
-        rules: decides what is allowed
-        suggester: proposes possible long-term patterns
-        """
+        
         self.journal = journal
         self.memory = memory
         self.rules = rules
@@ -25,16 +14,12 @@ class MemoryController:
         self.long_term_candidate = None
 
     def process_input(self, text: str):
-        """
-        Accepts raw user input and routes it safely.
-        """
-
-        # 1. Always store raw text
-        self.journal.save_entry(text)
+        self.journal.save(text)
 
         # 2. Short-term memory (if allowed)
-        if self.rules and self.rules.allow_short_term(text):
+        if self.rules and self.rules.should_store_short_term(text):
             self.memory.save_short(text)
+
 
         # 3. Suggest long-term pattern (NO storage)
         if self.suggester and self.rules:

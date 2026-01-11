@@ -1,13 +1,6 @@
 # Responsibility: Infers transient emotional state from text; does not persist or label identity.
 
-
-from typing import Literal 
-
 class EmotionalInterpreter:
-    """
-    Infers lightweight emotional signals from text.
-    Not a diagnosis. Not stored. Not asserted as fact.
-    """
 
     def infer(self, text: str) -> str:
         t = text.lower()
