@@ -25,11 +25,11 @@ def chat_loop():
     print("Hi!, Uday go ahead, share whatever is on your mind.")
 
     # ---- instantiate core components ----
-    pattern_suggester = PatternSuggester()
 
     journal = Journal()
     memory = Memory()
     rules = MemoryInterface()
+    pattern_suggester = PatternSuggester()
 
     memory_controller = MemoryController(
         journal=journal,
@@ -68,6 +68,7 @@ def chat_loop():
         # Opt-in for long-term memory (if candidate exists)
         candidate = memory_controller.long_term_candidate
         if candidate:
+            print(response_guide.familiarity_line())
             choice = input(
                 "This feels familiar. Would you like me to remember this pattern? [y/n] "
             ).strip().lower()

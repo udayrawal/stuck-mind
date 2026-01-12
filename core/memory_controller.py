@@ -1,7 +1,6 @@
 # Responsibility: Orchestrates memory flow and enforces rules; never interprets or speaks.
 
 class MemoryController:
-
     def __init__(self, journal, memory, rules, suggester=None):
         self.journal = journal
         self.memory = memory

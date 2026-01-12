@@ -1,6 +1,8 @@
-# Responsibility: Generates safe, presence-first responses; contains no advice or memory logic.
+# Responsibility: Generates safe, presence-first responses; 
+# contains no advice or memory logic.
 
 from .config import ABSOLUTE_WORDS, IMPERATIVE_WORDS, SAFE_FALLBACK_RESPONSE
+
 
 class ResponseGuide:
 
@@ -14,24 +16,34 @@ class ResponseGuide:
         elif state == "anxious":
             response = "I’m here with this."
 
+        elif state == "avoidant":
+            response = "It sounds like you’re pulling away a bit."
+
+        elif state == "confused":
+            response = "It feels unclear right now."
+
         else:
             response = "I’m listening."
 
-        # Guard clause: fallback if unsafe language detected
         if not self._is_safe(response):
             return SAFE_FALLBACK_RESPONSE
 
         return response
 
+    def familiarity_line(self) -> str:
+        """
+        Neutral phrasing used when a pattern is detected.
+        Does NOT ask for consent.
+        """
+        return "This feels familiar."
+
     def _is_safe(self, text: str) -> bool:
         lower = text.lower()
-        
+
         if any(word in lower for word in ABSOLUTE_WORDS):
             return False
+
         if any(word in lower for word in IMPERATIVE_WORDS):
             return False
+
         return True
-    
-    
-
-
