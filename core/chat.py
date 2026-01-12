@@ -24,16 +24,18 @@ def chat_loop():
     print("Stuck Mind is here.")
     print("Hi!, Uday go ahead, share whatever is on your mind.")
 
+    # ---- instantiate core components ----
+    pattern_suggester = PatternSuggester()
+
     journal = Journal()
     memory = Memory()
     rules = MemoryInterface()
-    suggester = PatternSuggester()
 
     memory_controller = MemoryController(
         journal=journal,
         memory=memory,
         rules=rules,
-        suggester=suggester
+        suggester=pattern_suggester
     )
 
     emotion_interpreter = EmotionalInterpreter()

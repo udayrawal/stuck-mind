@@ -10,5 +10,2061 @@
   {
     "timestamp": "2026-01-10T11:47:14.920863",
     "text": "after doing lots of attempts we are finally here."
+  },
+  {
+    "timestamp": "2026-01-12T09:07:51.720473",
+    "text": "hi"
+  },
+  {
+    "timestamp": "2026-01-12T09:07:53.013109",
+    "text": "hi"
+  },
+  {
+    "timestamp": "2026-01-12T09:07:59.337911",
+    "text": "I'm tired"
+  },
+  {
+    "timestamp": "2026-01-12T09:08:07.150397",
+    "text": "I feel joy"
+  },
+  {
+    "timestamp": "2026-01-12T09:08:12.004849",
+    "text": "I am happy"
+  },
+  {
+    "timestamp": "2026-01-12T09:08:16.789524",
+    "text": "stuck"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.506015",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.579670",
+    "text": "You said:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.635133",
+    "text": "I have completed till day 5                                                        Python AIML"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.677768",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.721316",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.763557",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.809721",
+    "text": "time table"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.855107",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.893645",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.911721",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.939957",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:31.970644",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.001283",
+    "text": "---"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.032546",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.061184",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.082466",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.105647",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.134511",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.158067",
+    "text": "**\u2705 PHASE 1: Python for Data Science (Day 1 \u2013 10)**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.184139",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.208768",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.235398",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.259692",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.285700",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.306780",
+    "text": "Day\tTopic\tTask"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.333289",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.356371",
+    "text": "1\tNumPy Basics\tArrays, indexing, slicing"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.384985",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.409631",
+    "text": "2\tNumPy Ops\tReshape, broadcasting, math ops"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.434282",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.448361",
+    "text": "3\tPandas Series \\& DataFrames\tLoad, explore, select"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.477462",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.489163",
+    "text": "4\tPandas Advance\tGroupby, merge, missing values"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.515244",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.543336",
+    "text": "5\tMatplotlib\tLine, bar, hist, scatter plots"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.565426",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.590804",
+    "text": "6\tSeaborn\tPairplot, heatmap, distplot"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.619483",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.648144",
+    "text": "7\tData Project 1\tAnalyze COVID-19 / IPL dataset"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.673248",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.699889",
+    "text": "8\tData Project 2\tIPL  data project"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.730034",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.755974",
+    "text": "9\tKaggle Practice\tChoose any dataset \\& explore"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.782579",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.810231",
+    "text": "10\tRecap + Quiz\tPractice + 10-question quiz"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.837570",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.863798",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.888450",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.913502",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.939678",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.964749",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:32.990917",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.017668",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.042511",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.063605",
+    "text": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.084054",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.112684",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.141590",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.172333",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.207441",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.242722",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.281568",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.314978",
+    "text": "**\u2705 PHASE 2: Core ML (Day 11 \u2013 28)**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.345153",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.367424",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.396611",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.422248",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.444849",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.470734",
+    "text": "Day\tTopic\tTask"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.496632",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.523973",
+    "text": "11\tIntro to ML\tTypes, Pipeline, sklearn"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.547367",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.569317",
+    "text": "12\tLinear Regression\tTrain/Test, MSE"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.596374",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.622197",
+    "text": "13\tLogistic Regression\tClassification, sigmoid"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.647459",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.673333",
+    "text": "14\tKNN\tClassification, tuning k"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.693442",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.716520",
+    "text": "15\tDecision Tree\tGini, Entropy, overfitting"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.739047",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.766131",
+    "text": "16\tSVM\tLinear, kernel trick"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.791732",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.820879",
+    "text": "17\tProject: Titanic (Part 1)\tEDA + Preprocessing"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.846505",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.874173",
+    "text": "18\tProject: Titanic (Part 2)\tModeling + Evaluation"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.898797",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.924396",
+    "text": "19\tModel Metrics\tAccuracy, Precision, Recall"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.950325",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.974542",
+    "text": "20\tConfusion Matrix\tROC-AUC, F1"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:33.996329",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.021941",
+    "text": "21\tProject: House Prices (Part 1)\tFeature Engineering"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.046573",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.069762",
+    "text": "22\tProject: House Prices (Part 2)\tTraining + Evaluation"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.095852",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.120481",
+    "text": "23\tFeature Scaling\tStandardization, normalization"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.148883",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.175962",
+    "text": "24\tHyperparameter Tuning\tGridSearchCV, Cross-Validation"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.201500",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.228828",
+    "text": "25\tK-Means Clustering\tUnsupervised ML"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.257677",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.285544",
+    "text": "26\tPCA\tDimensionality Reduction"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.311189",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.336357",
+    "text": "27\tProject: Customer Segmentation\tK-Means on E-commerce data"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.365943",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.399695",
+    "text": "28\tQuiz + Summary\t15-question MCQ set"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.439775",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.481970",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.519748",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.555987",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.588909",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.618599",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.648759",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.679942",
+    "text": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.705031",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.733171",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.755924",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.783893",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.811152",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.837773",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.863824",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.889064",
+    "text": "**\u2705 PHASE 3: Math for ML (Do in parallel 3 days/week)**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.916183",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.942936",
+    "text": "**Do alongside ML Phase**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.958905",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.980654",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:34.996217",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.013321",
+    "text": "Day\tTopic\tResource"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.032392",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.053369",
+    "text": "1\tMean, Median, Mode\tKhan Academy / 3Blue1Brown"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.077442",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.093131",
+    "text": "2\tVariance \\& Std Dev"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.110043",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.126557",
+    "text": "3\tProbability"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.141679",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.157739",
+    "text": "4\tBayes Theorem"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.179803",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.202682",
+    "text": "5\tVectors \\& Matrices\tLinear Algebra"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.225801",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.251609",
+    "text": "6\tDot Product \\& Matrix Ops"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.277706",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.305789",
+    "text": "7\tDerivatives\tCalculus for ML"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.333721",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.358434",
+    "text": "8\tGradient Intuition\tCost function"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.388650",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.401201",
+    "text": "9\tLinear Algebra Practice\tNumPy"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.427819",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.456498",
+    "text": "10\tProbability in ML\tNaive Bayes intuition"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.485797",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.510462",
+    "text": "11\tQuiz + Recap\t10 MCQs"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.541273",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.567907",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.594991",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.624481",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.653670",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.684581",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.721784",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.757686",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.794912",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.827544",
+    "text": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.861333",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.891922",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.925100",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.953827",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:35.983900",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.010426",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.038589",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.065682",
+    "text": "**\u2705 PHASE 4: Deep Learning (Day 39 \u2013 62)**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.091411",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.119687",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.147886",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.174020",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.199650",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.227751",
+    "text": "Day\tTopic\tTask"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.256497",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.284129",
+    "text": "39\tIntro to Neural Nets\tPerceptrons, weights"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.309753",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.337907",
+    "text": "40\tForward + Backpropagation"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.364942",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.392637",
+    "text": "41\tActivation Functions\tReLU, Sigmoid, Tanh"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.421293",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.447919",
+    "text": "42\tLoss Functions\tMSE, Cross-entropy"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.474198",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.501585",
+    "text": "43\tOptimizers\tGradient descent, Adam"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.529693",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.559907",
+    "text": "44\tTensorFlow / PyTorch Setup"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.590041",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.619402",
+    "text": "45\tBuild NN with TensorFlow\tMNIST basic"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.650017",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.677603",
+    "text": "46\tTrain NN + Tune"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.704681",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.731943",
+    "text": "47\tCNN Basics\tConvolution, pooling"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.757431",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.782107",
+    "text": "48\tCNN with TensorFlow\tImage Classifier"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.811013",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.840038",
+    "text": "49\tRNN Basics\tSequences, intro"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.869370",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.898813",
+    "text": "50\tSentiment Analysis\tUsing LSTM"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.929383",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.954617",
+    "text": "51\tOverfitting, Dropout"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:36.988336",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.026526",
+    "text": "52\tSave \\& Load Models"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.065733",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.104095",
+    "text": "53\tTransfer Learning"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.142313",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.175924",
+    "text": "54\tQuiz + Recap\t15-question MCQ"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.210284",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.261158",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.300311",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.324396",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.347499",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.369556",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.387608",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.409659",
+    "text": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.428770",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.444834",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.465823",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.492435",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.513047",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.533138",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.560236",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.589489",
+    "text": "**\u2705 PHASE 5: Portfolio + Capstone Projects (Day 63 \u2013 76)**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.615582",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.644465",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.672106",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.698715",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.726872",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.756230",
+    "text": "Day\tProject\tTask"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.784869",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.813349",
+    "text": "63\u201365\tIris Classifier\tFull ML pipeline"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.842482",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.873760",
+    "text": "66\u201369\tStroke/Heart Disease\tData cleaning + classification"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.904163",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.929902",
+    "text": "70\u201372\tImage Classifier\tCNN on custom dataset"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.956195",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:37.981512",
+    "text": "73\u201375\tStreamlit Web App\tDeploy one model"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.003112",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.027779",
+    "text": "76\tGitHub Portfolio Setup\tPush notebooks, README"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.052487",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.081317",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.106370",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.131003",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.182850",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.202927",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.225992",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.245585",
+    "text": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.271168",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.297763",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.332955",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.366906",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.402680",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.439836",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.471984",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.505175",
+    "text": "**\u2705 PHASE 6: Resume + Interviews + DSA (Day 77\u201390)**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.533925",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.557563",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.583300",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.606097",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.631724",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.654912",
+    "text": "Day\tTask"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.681520",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.707645",
+    "text": "77\tResume Building (Tech)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.732684",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.759884",
+    "text": "78\tLinkedIn Setup"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.785718",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.812685",
+    "text": "79\u201382\tBasic DSA: Arrays, Strings"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.839365",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.869751",
+    "text": "83\u201385\tSorting, Recursion"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.900082",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.929722",
+    "text": "86\u201387\tMock Interviews"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.960467",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:38.988845",
+    "text": "88\tGitHub Final Touch"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.016811",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.043619",
+    "text": "89\tInternship Applications"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.072950",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.100635",
+    "text": "90\tFinal Test \\& Plan Next Step"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.129940",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.159129",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.187727",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.219356",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.247728",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.272655",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.298497",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.324109",
+    "text": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.351346",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.378962",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.405038",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.430640",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.459534",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.493187",
+    "text": "**\ud83d\udd27 Tools Required**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.522001",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.560268",
+    "text": "**Jupyter Notebook / Google Colab**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.598847",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.633805",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.667857",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.702645",
+    "text": "**Python 3, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, TensorFlow or PyTorch**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.738973",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.774203",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.801468",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.829081",
+    "text": "**GitHub for portfolio**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.854746",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.879188",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.910785",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.933888",
+    "text": "**Kaggle for datasets**"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.961718",
+    "text": "ChatGPT said:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:39.986782",
+    "text": "Perfect, Uday \u2705"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.012043",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.041969",
+    "text": "You\u2019ve officially completed till Day 5 (Matplotlib) \u2014 which means you\u2019ve mastered:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.067585",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.101712",
+    "text": "NumPy (arrays, indexing, ops)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.135107",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.163267",
+    "text": "Pandas (Series, DataFrames, groupby, merge, etc.)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.191582",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.222730",
+    "text": "Matplotlib (line, bar, hist, scatter plots)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.251875",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.279489",
+    "text": "That\u2019s a solid foundation for Data Science \u2014 you can now move into Seaborn and real-world Data Projects."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.305492",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.332097",
+    "text": "\ud83d\udd25 Your Next Steps (Day 6\u201310)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.359710",
+    "text": "Day\tTopic\tGoal / What to Learn\tPractice Task"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.386819",
+    "text": "6\tSeaborn\tLearn advanced visualization \u2014 pairplot, heatmap, distplot, countplot\tVisualize a dataset (like Titanic or Tips) using at least 5 plots"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.419656",
+    "text": "7\tData Project 1: COVID-19 / IPL Data\tLoad dataset \u2192 Clean \u2192 Analyze \u2192 Visualize trends\tMake EDA report (CSV \u2192 Pandas \u2192 Seaborn charts)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.451543",
+    "text": "8\tData Project 2: IPL Data Analysis\tFocus on player stats, team wins, top scorers, economy rate\tUse groupby, sort_values, and Seaborn"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.486141",
+    "text": "9\tKaggle Practice\tExplore a new dataset from Kaggle, make a notebook\tTry to explain each step with markdown"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.519263",
+    "text": "10\tRecap + Quiz\tRevise all libraries, take a 10-question quiz\tI\u2019ll give you a mini test after Day 10 \u2705"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.549437",
+    "text": "\ud83e\udde0 Tips for Maximum Learning"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.583762",
+    "text": "Visualize before coding \u2013 always plan what insight you want before writing the code."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.618703",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.647597",
+    "text": "Explain your plots \u2013 in markdown cells, write what each plot tells you (like a data analyst)."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.685239",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.719934",
+    "text": "Save notebooks to GitHub \u2013 start building your public portfolio from now."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.754121",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.783760",
+    "text": "Try using real datasets \u2013 IPL, Netflix, COVID-19, Student performance, etc."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.816898",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.854624",
+    "text": "Ask me daily for review/tests \u2013 I\u2019ll check your code or give you project-level questions."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.896554",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.931321",
+    "text": "\ud83e\udde9 Once You Finish Day 10"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:40.964648",
+    "text": "You\u2019ll be fully ready for Phase 2 (Core ML) \u2014 where we\u2019ll build predictive models using scikit-learn."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.012506",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.056560",
+    "text": "Would you like me to start Day 6: Seaborn (with explanation + practical tasks) now?"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.081162",
+    "text": "I\u2019ll teach you the commands and give you a dataset to visualize with step-by-step examples."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.111289",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.131267",
+    "text": "You said:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.157855",
+    "text": "If I do this all till 90 days I will be master AIML or get as AIML job"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.191595",
+    "text": "ChatGPT said:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.223224",
+    "text": "Excellent question, Uday \ud83d\udd25 \u2014 and this is exactly the right mindset."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.253579",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.279007",
+    "text": "Let\u2019s break this down realistically but powerfully \ud83d\udc47"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.309983",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.326731",
+    "text": "\ud83d\ude80 If You Complete This 90-Day Plan Seriously"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.348907",
+    "text": "You won\u2019t just \u201cknow AI/ML\u201d \u2014"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.381090",
+    "text": "you\u2019ll be job-ready and project-proven for internships or junior roles in AI, ML, or Data Science."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.414590",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.449071",
+    "text": "But let\u2019s be very clear on what each phase actually gives you:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.485742",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.521012",
+    "text": "\u2705 Phase 1 (Days 1\u201310): Python for Data Science"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.561162",
+    "text": "You\u2019ll master:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.592288",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.624829",
+    "text": "Data handling (NumPy, Pandas)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.657738",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.691586",
+    "text": "Data visualization (Matplotlib, Seaborn)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.721800",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.755262",
+    "text": "Exploratory Data Analysis (EDA)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.788894",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.813537",
+    "text": "\ud83d\udc49 You\u2019ll think like a data analyst or data scientist."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.836005",
+    "text": "\ud83d\udcc8 Skills gained: \u201cData storytelling,\u201d insights finding, data cleaning."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.854663",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.881717",
+    "text": "\u2705 Phase 2 (Days 11\u201328): Core ML"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.903906",
+    "text": "You\u2019ll learn:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.923972",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.942707",
+    "text": "Supervised & Unsupervised ML algorithms (Regression, Classification, KNN, SVM, Clustering)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:41.974582",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.012022",
+    "text": "Real projects like Titanic, House Prices, Customer Segmentation"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.050457",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.092589",
+    "text": "Model evaluation (Accuracy, ROC, Precision, Recall)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.134275",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.179970",
+    "text": "Hyperparameter tuning"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.221318",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.263801",
+    "text": "\ud83d\udc49 You\u2019ll be ready to build ML models from scratch and explain how they work."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.304034",
+    "text": "\ud83d\udcc8 Skills gained: \u201cMachine Learning Engineer\u201d level basics."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.338852",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.374510",
+    "text": "\u2705 Phase 3 (Math for ML \u2013 Parallel)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.404667",
+    "text": "You\u2019ll understand:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.433096",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.464881",
+    "text": "Statistics, Probability, and Linear Algebra"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.498682",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.535574",
+    "text": "How ML models work internally"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.565672",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.595319",
+    "text": "Gradient Descent, Matrix math, Derivatives"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.624383",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.658770",
+    "text": "\ud83d\udc49 You\u2019ll be able to understand the \u201cwhy\u201d behind the code, not just copy it."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.691857",
+    "text": "\ud83d\udcc8 Skills gained: \u201cAI-ready mathematical intuition.\u201d"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.721561",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.752726",
+    "text": "\u2705 Phase 4 (Deep Learning \u2013 Days 39\u201362)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.781330",
+    "text": "You\u2019ll master:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.815982",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.846102",
+    "text": "Neural Networks (TensorFlow or PyTorch)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.874267",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.902911",
+    "text": "CNNs (for Images)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.932077",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.962359",
+    "text": "RNNs and LSTMs (for Text)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:42.991292",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.021922",
+    "text": "Overfitting, Dropout, Transfer Learning"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.052549",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.086789",
+    "text": "\ud83d\udc49 You\u2019ll be able to build a real Neural Network model from scratch."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.125674",
+    "text": "\ud83d\udcc8 Skills gained: \u201cDeep Learning Engineer / AI Engineer \u2013 beginner level.\u201d"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.163210",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.196549",
+    "text": "\u2705 Phase 5 (Capstone Projects)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.233813",
+    "text": "You\u2019ll complete:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.271319",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.305547",
+    "text": "3\u20134 real-world projects"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.339970",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.375186",
+    "text": "Deploy one model using Streamlit"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.415868",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.460558",
+    "text": "Create your GitHub portfolio"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.506522",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.552743",
+    "text": "\ud83d\udc49 This is your proof of skill \u2014 what recruiters actually look for."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.595698",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.633146",
+    "text": "\u2705 Phase 6 (Resume + DSA + Interview Prep)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.675455",
+    "text": "You\u2019ll:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.711336",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.741111",
+    "text": "Build a technical resume"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.775161",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.816103",
+    "text": "Create a strong LinkedIn + GitHub"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.853912",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.885765",
+    "text": "Revise DSA basics (for coding interviews)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.916663",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.954427",
+    "text": "Do mock interviews"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:43.988984",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.019653",
+    "text": "Apply for internships / research roles / AI assistant jobs"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.052769",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.089703",
+    "text": "\ud83c\udfaf After 90 Days \u2014 Your Position"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.129507",
+    "text": "If you complete every day sincerely:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.162462",
+    "text": "\u2705 You\u2019ll have practical, project-level experience."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.192736",
+    "text": "\u2705 You\u2019ll be ready for internships / entry-level ML jobs."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.226101",
+    "text": "\u2705 You\u2019ll have GitHub projects + LinkedIn proof."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.258122",
+    "text": "\u2705 You\u2019ll understand AI fundamentals, not just code."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.292522",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.322135",
+    "text": "You won\u2019t be a \u201csenior AI researcher\u201d yet (that takes 1\u20132 years of real projects),"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.345780",
+    "text": "but you\u2019ll be job-ready \u2014 the kind of person companies want to invest in."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.373863",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.405436",
+    "text": "\ud83e\udde9 Your Options After 90 Days"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.442668",
+    "text": "Goal\tNext Steps"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.469244",
+    "text": "\ud83c\udf93 Internship\tApply on LinkedIn, Internshala, AICTE, Google KaggleX, Omdena"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.501133",
+    "text": "\ud83d\udcbc Full-time ML Engineer (after 1 year)\tBuild 5\u20136 strong projects + DSA + resume polish"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.527874",
+    "text": "\ud83e\udde0 Research / Advanced AI\tLearn NLP, Transformers, GANs, or Reinforcement Learning"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.557966",
+    "text": "\ud83d\udcb0 Freelancing / Startup\tOffer AI-powered solutions or small projects using Streamlit"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.579652",
+    "text": "\ud83d\udd25 My Honest Promise"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.610920",
+    "text": "If you follow this 90-day roadmap seriously (2\u20133 hrs/day),"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.645636",
+    "text": "I can guarantee you\u2019ll reach a level where:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.679234",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.716169",
+    "text": "You can build and explain ML models end-to-end"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.754944",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.796397",
+    "text": "You\u2019ll have a public portfolio recruiters respect"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.841471",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.879950",
+    "text": "You\u2019ll be ready to interview for AI/ML internships at startups or research programs"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.923733",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.958725",
+    "text": "Would you like me to make you a tracking system (Google Sheet or Notion format)"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:44.993874",
+    "text": "to monitor your daily progress \u2014 so we make sure you actually finish this 90-day journey strong?"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.025909",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.059668",
+    "text": "You said:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.083729",
+    "text": "lets go with day6"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.111648",
+    "text": "ChatGPT said:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.139252",
+    "text": "Perfect, Uday \ud83d\udd25"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.170564",
+    "text": "Let\u2019s start Day 6: Seaborn \u2014 Data Visualization for Data Science"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.196259",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.225608",
+    "text": "By the end of today, you\u2019ll be able to create professional visualizations used in ML reports and EDA projects."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.251832",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.281863",
+    "text": "\ud83e\udde9 Day 6: Seaborn \u2014 Advanced Visualization"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.307754",
+    "text": "\ud83c\udfaf Goal:"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.339602",
+    "text": "Learn to visualize relationships, distributions, and categories easily with Seaborn."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.369829",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.403945",
+    "text": "\ud83e\udde0 Step 1: What is Seaborn?"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.436067",
+    "text": "Seaborn is a Python library built on top of Matplotlib."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.471650",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.500831",
+    "text": "It makes statistical visualization easier and more beautiful."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.532637",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.562122",
+    "text": "It integrates directly with Pandas DataFrames \u2014 no need to convert arrays."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.587660",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.620113",
+    "text": "\ud83d\udce6 Install and Import"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.657785",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.693907",
+    "text": "pip install seaborn"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.726088",
+    "text": "import seaborn as sns"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.755880",
+    "text": "import matplotlib.pyplot as plt"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.787994",
+    "text": "import pandas as pd"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.820045",
+    "text": "\ud83e\udde0 Step 2: Load Example Dataset"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.850238",
+    "text": "Seaborn comes with built-in datasets (for practice)."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.885002",
+    "text": "Let\u2019s load the famous \u2018tips\u2019 dataset (restaurant tips)."
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.919736",
+    "text": ""
+  },
+  {
+    "timestamp": "2026-01-12T09:13:45.951323",
+    "text": "data = sns.load_dataset('tips')"
+  },
+  {
+    "timestamp": "2026-01-12T09:13:51.292300",
+    "text": "I am tired"
+  },
+  {
+    "timestamp": "2026-01-12T09:14:00.561499",
+    "text": "I am scrolling"
+  },
+  {
+    "timestamp": "2026-01-12T09:14:16.181194",
+    "text": "I'm scrolling agian"
+  },
+  {
+    "timestamp": "2026-01-12T09:14:30.636927",
+    "text": "I'm tired and scrolling"
+  },
+  {
+    "timestamp": "2026-01-12T09:17:08.652118",
+    "text": "I hear how drained this feels."
+  },
+  {
+    "timestamp": "2026-01-12T09:19:02.501771",
+    "text": "I hear how drained this feels."
+  },
+  {
+    "timestamp": "2026-01-12T09:35:11.975176",
+    "text": "I'm tired"
+  },
+  {
+    "timestamp": "2026-01-12T09:35:20.348222",
+    "text": "I'm scrolling agian"
+  },
+  {
+    "timestamp": "2026-01-12T09:35:39.465582",
+    "text": "I'm scrolling again"
+  },
+  {
+    "timestamp": "2026-01-12T09:35:50.433505",
+    "text": "I'm tired and scrolling"
+  },
+  {
+    "timestamp": "2026-01-12T09:41:13.806431",
+    "text": "I'm tired and scrolling"
+  },
+  {
+    "timestamp": "2026-01-12T09:41:44.121064",
+    "text": "I'm tired"
+  },
+  {
+    "timestamp": "2026-01-12T09:41:53.345636",
+    "text": "I'm scrolling again"
+  },
+  {
+    "timestamp": "2026-01-12T09:42:02.429414",
+    "text": "I'm tired and scrolling"
+  },
+  {
+    "timestamp": "2026-01-12T09:43:40.349419",
+    "text": "I'm tired"
+  },
+  {
+    "timestamp": "2026-01-12T09:43:47.418364",
+    "text": "I'm scrolling again"
+  },
+  {
+    "timestamp": "2026-01-12T09:43:56.697532",
+    "text": "I'm tired and scrolling"
+  },
+  {
+    "timestamp": "2026-01-12T09:47:52.096481",
+    "text": "I'm tired"
+  },
+  {
+    "timestamp": "2026-01-12T09:48:01.603477",
+    "text": "I'm scrolling again"
+  },
+  {
+    "timestamp": "2026-01-12T09:48:10.051529",
+    "text": "I'm tired and scrolling"
   }
 ]

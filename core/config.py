@@ -15,7 +15,7 @@ ABSOLUTE_WORDS = {"always", "never"}
 IMPERATIVE_WORDS = {"should", "try", "do", "must"}
 
 # Pattern suggester
-MIN_CONTEXT_FOR_PATTERN = 2
+MIN_CONTEXT_FOR_PATTERN = 1
 
 # Fallback response
 SAFE_FALLBACK_RESPONSE = "I’m here. We can take this slowly."
