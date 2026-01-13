@@ -66,9 +66,11 @@ def chat_loop():
             print(SAFE_FALLBACK_RESPONSE)
 
         # Opt-in for long-term memory (if candidate exists)
+        
         candidate = memory_controller.long_term_candidate
+
         if candidate:
-            print(response_guide.familiarity_line())
+            print(response_guide.familiarity())
             choice = input(
                 "This feels familiar. Would you like me to remember this pattern? [y/n] "
             ).strip().lower()
@@ -78,6 +80,9 @@ def chat_loop():
 
             memory_controller.long_term_candidate = None
 
-
-if __name__ == "__main__":
-    chat_loop()
+        else:
+            response = response_guide.respond(
+        state=state,
+        context=memory.get_context()
+    )
+        print(response)

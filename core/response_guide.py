@@ -22,6 +22,15 @@ class ResponseGuide:
         elif state == "confused":
             response = "It feels unclear right now."
 
+        elif state == "sad":
+            response = "I’m with you in this sadness."
+
+        elif state == "neutral":
+            response = "I’m here with you."
+
+        elif state == "Unknown":
+            response = "We can stay with this for a moment."
+
         else:
             response = "I’m listening."
 
@@ -30,12 +39,12 @@ class ResponseGuide:
 
         return response
 
-    def familiarity_line(self) -> str:
-        """
-        Neutral phrasing used when a pattern is detected.
-        Does NOT ask for consent.
-        """
-        return "This feels familiar."
+    def familiarity(self) -> str:
+        response = "This feels familiar."
+        if not self._is_safe(response):
+            return SAFE_FALLBACK_RESPONSE
+        return response
+
 
     def _is_safe(self, text: str) -> bool:
         lower = text.lower()
