@@ -19,13 +19,14 @@ def on_session_end(memory_controller):
 
 
 def chat_loop():
+    print("DEBUG: chat_loop started")
+
     on_session_start()
 
     print("Stuck Mind is here.")
     print("Hi!, Uday go ahead, share whatever is on your mind.")
 
     # ---- instantiate core components ----
-
     journal = Journal()
     memory = Memory()
     rules = MemoryInterface()
@@ -49,40 +50,35 @@ def chat_loop():
             print("I am here always for you. If you need anything.")
             break
 
-        # Memory routing (must always run)
+        # 1. Memory routing (always runs)
         memory_controller.process_input(raw_input)
 
+        # 2. Emotional response
         try:
             state = emotion_interpreter.infer(raw_input)
-
             response = response_guide.respond(
                 state=state,
                 context=memory.get_context()
             )
-
             print(response)
 
         except Exception:
             print(SAFE_FALLBACK_RESPONSE)
 
-        # Opt-in for long-term memory (if candidate exists)
-        
+        # 3. Familiarity prompt (ONLY if pattern exists)
         candidate = memory_controller.long_term_candidate
 
         if candidate:
-            print(response_guide.familiarity())
-            choice = input(
-                "This feels familiar. Would you like me to remember this pattern? [y/n] "
-            ).strip().lower()
+            print("This feels familiar.")
+            choice = input("Would you like me to remember this pattern? [y/n] ").strip().lower()
+            print("[debug] familiarity_prompt_shown=True")
 
             if choice == "y":
                 memory.save_long(candidate)
 
+            # Always clear after decision
             memory_controller.long_term_candidate = None
 
-        else:
-            response = response_guide.respond(
-        state=state,
-        context=memory.get_context()
-    )
-        print(response)
+
+if __name__ == "__main__":
+    chat_loop()

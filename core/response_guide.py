@@ -39,11 +39,10 @@ class ResponseGuide:
 
         return response
 
-    def familiarity(self) -> str:
-        response = "This feels familiar."
-        if not self._is_safe(response):
-            return SAFE_FALLBACK_RESPONSE
-        return response
+    def familiarity_prompt(self) -> str:
+        response = "This feels familiar. Would you like me to remember this pattern?"
+        return response if self._is_safe(response) else SAFE_FALLBACK_RESPONSE
+
 
 
     def _is_safe(self, text: str) -> bool:

@@ -2,10 +2,13 @@
 
 class MemoryController:
     def __init__(self, journal, memory, rules, suggester=None):
+        
         self.journal = journal
         self.memory = memory
         self.rules = rules
         self.suggester = suggester
+
+        # Holds a proposed long-term memory (not stored yet)
         self.long_term_candidate = None
 
     def process_input(self, text: str):
@@ -16,7 +19,7 @@ class MemoryController:
         if self.rules and self.rules.should_store_short_term(text):
             self.memory.save_short(text)
 
-        # 3. Suggest long-term pattern (NO storage)
+        # 3. Suggest long-term pattern (NO storage here)
         if self.suggester and self.rules:
             context = self.memory.get_context().get("recent_context", [])
             pattern = self.suggester.suggest(context)
@@ -29,4 +32,5 @@ class MemoryController:
                 self.long_term_candidate = pattern
 
     def end_session(self):
+        # Clears only short-term memory
         self.memory.clear_short()

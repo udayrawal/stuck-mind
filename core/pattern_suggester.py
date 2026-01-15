@@ -18,8 +18,9 @@ class PatternSuggester:
     ]
 
     def suggest(self, recent_context: list[str]) -> str | None:
-        if len(recent_context) < MIN_CONTEXT_FOR_PATTERN:
+        if len(recent_context) < 2:
             return None
+
 
 
         text = " ".join(recent_context).lower()
