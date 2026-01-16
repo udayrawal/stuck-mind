@@ -1,4 +1,4 @@
-# Responsibility: Generates safe, presence-first responses; 
+# Responsibility: Generates safe, presence-first responses;
 # contains no advice or memory logic.
 
 from .config import ABSOLUTE_WORDS, IMPERATIVE_WORDS, SAFE_FALLBACK_RESPONSE
@@ -28,21 +28,22 @@ class ResponseGuide:
         elif state == "neutral":
             response = "I’m here with you."
 
-        elif state == "Unknown":
+        elif state == "unknown":
             response = "We can stay with this for a moment."
 
         else:
             response = "I’m listening."
 
-        if not self._is_safe(response):
-            return SAFE_FALLBACK_RESPONSE
-
-        return response
-
-    def familiarity_prompt(self) -> str:
-        response = "This feels familiar. Would you like me to remember this pattern?"
         return response if self._is_safe(response) else SAFE_FALLBACK_RESPONSE
 
+
+    def familiarity_message(self) -> str:
+        """
+        Response-only familiarity signal.
+        NO consent logic here.
+        """
+        message = "This feels familiar."
+        return message if self._is_safe(message) else SAFE_FALLBACK_RESPONSE
 
 
     def _is_safe(self, text: str) -> bool:

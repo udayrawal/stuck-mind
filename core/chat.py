@@ -1,4 +1,5 @@
-# Responsibility: Coordinates session flow and component interaction; contains no business logic.
+# Responsibility: Coordinates session flow and component interaction;
+# contains no business logic.
 
 from .memory_controller import MemoryController
 from .memory import Memory
@@ -45,6 +46,9 @@ def chat_loop():
     while True:
         raw_input = input("> ").strip()
 
+        if not raw_input:
+            continue
+
         if raw_input.lower() == "bye":
             on_session_end(memory_controller)
             print("I am here always for you. If you need anything.")
@@ -64,12 +68,15 @@ def chat_loop():
 
         except Exception:
             print(SAFE_FALLBACK_RESPONSE)
+            continue
 
-        # 3. Familiarity prompt (ONLY if pattern exists)
+        # 3. Familiarity flow (ONLY if pattern exists)
         candidate = memory_controller.long_term_candidate
 
         if candidate:
-            print("This feels familiar.")
+            familiarity_msg = response_guide.familiarity_message()
+            print(familiarity_msg)
+
             choice = input("Would you like me to remember this pattern? [y/n] ").strip().lower()
             print("[debug] familiarity_prompt_shown=True")
 
