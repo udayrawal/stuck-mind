@@ -20,8 +20,6 @@ def on_session_end(memory_controller):
 
 
 def chat_loop():
-    print("DEBUG: chat_loop started")
-
     on_session_start()
 
     print("Stuck Mind is here.")
@@ -42,6 +40,9 @@ def chat_loop():
 
     emotion_interpreter = EmotionalInterpreter()
     response_guide = ResponseGuide()
+
+    # Track which patterns were already offered this session
+    offered_patterns = set()
 
     while True:
         raw_input = input("> ").strip()
@@ -66,24 +67,29 @@ def chat_loop():
             )
             print(response)
 
-        except Exception:
+        except RuntimeError:
             print(SAFE_FALLBACK_RESPONSE)
             continue
 
-        # 3. Familiarity flow (ONLY if pattern exists)
+        # 3. Familiarity flow (ONLY if new pattern exists)
         candidate = memory_controller.long_term_candidate
 
         if candidate:
-            familiarity_msg = response_guide.familiarity_message()
-            print(familiarity_msg)
+            pattern_text = candidate["text"]
 
-            choice = input("Would you like me to remember this pattern? [y/n] ").strip().lower()
-            print("[debug] familiarity_prompt_shown=True")
+            if pattern_text not in offered_patterns:
+                print(response_guide.familiarity_message())
 
-            if choice == "y":
-                memory.save_long(candidate)
+                choice = input(
+                    "Would you like me to remember this pattern? [y/n] "
+                ).strip().lower()
 
-            # Always clear after decision
+                if choice == "y":
+                    memory.save_long(pattern_text)
+
+                offered_patterns.add(pattern_text)
+
+            # Always clear after handling
             memory_controller.long_term_candidate = None
 
 

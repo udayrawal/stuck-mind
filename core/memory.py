@@ -3,7 +3,8 @@
 # It does not decide what SHOULD be remembered.
 # That responsibility belongs to MemoryInterface / MemoryController.
 
-# Responsibility: Stores short-term and long-term memory only; does not decide what should be remembered.
+# Responsibility: Stores short-term and long-term memory only;
+# does not decide what should be remembered.
 
 
 """
@@ -50,10 +51,6 @@ Rules:
 - No dates, no timelines, no incident logs.
 - No single event is ever stored as long-term memory.
 
-Examples:
-✔ "You get stuck when tasks feel undefined"
-✖ "On 12 Jan you failed to start X"
-
 ----------------------------------------
 PRIVACY RULE (NON-NEGOTIABLE)
 ----------------------------------------
@@ -62,44 +59,10 @@ PRIVACY RULE (NON-NEGOTIABLE)
 - Never use memory to emotionally manipulate.
 - No language like "you always" or "you never".
 
-This rule overrides all others.
-
-----------------------------------------
-HOW STUCK MIND USES MEMORY
-----------------------------------------
-- To recognize, not judge.
-- To gently reflect patterns.
-- To avoid repeating advice that doesn’t work.
-- To reduce mental noise, not create labels.
-
-Memory is referenced softly, never asserted as fact.
-
-Example tone:
-"This feels familiar. Last time, slowing down helped."
-
-----------------------------------------
-WHAT MEMORY MUST NEVER DO
-----------------------------------------
-- No shaming with the past.
-- No forcing consistency.
-- No absolute language.
-- No storing raw emotional confessions.
-- No identity formation ("this is who you are").
-
-Memory must never harden into personality.
-
 ----------------------------------------
 CORE MEMORY PRINCIPLE
 ----------------------------------------
 "Memory is a map, not a verdict."
-
-----------------------------------------
-ONE-LINE SYSTEM RULE
-----------------------------------------
-"Remember only what helps the user feel understood next time."
-
-========================================
-END OF MEMORY SYSTEM
 ========================================
 """
 
@@ -115,15 +78,12 @@ class Memory:
         # Pattern-only memory
         self.long_term = []
 
-
-
     # ---------- SHORT-TERM MEMORY ----------
     def save_short(self, text: str):
         self.short_term.append(text)
 
         if len(self.short_term) > SHORT_TERM_LIMIT:
             self.short_term = self.short_term[-SHORT_TERM_LIMIT:]
-
 
     def clear_short(self):
         """
@@ -141,6 +101,3 @@ class Memory:
             "recent_context": self.short_term[-RECENT_CONTEXT_LIMIT:],
             "patterns": self.long_term
         }
-    
-    
-

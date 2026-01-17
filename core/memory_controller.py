@@ -1,8 +1,9 @@
-# Responsibility: Orchestrates memory flow and enforces rules; never interprets or speaks.
+# Responsibility: Orchestrates memory flow and enforces rules;
+# never interprets emotion or generates responses.
+
 
 class MemoryController:
     def __init__(self, journal, memory, rules, suggester=None):
-        
         self.journal = journal
         self.memory = memory
         self.rules = rules
@@ -12,6 +13,10 @@ class MemoryController:
         self.long_term_candidate = None
 
     def process_input(self, text: str):
+        """
+        Routes raw user input through the memory system.
+        """
+
         # 1. Always store raw input
         self.journal.save(text)
 
@@ -26,11 +31,14 @@ class MemoryController:
 
             if (
                 pattern
-                and self.rules.should_store_long_term(pattern)
-                and pattern not in self.memory.long_term
+                and pattern.get("confidence", 0) >= 0.6
+                and self.rules.should_store_long_term(pattern["text"])
+                and self.long_term_candidate is None
             ):
                 self.long_term_candidate = pattern
 
     def end_session(self):
-        # Clears only short-term memory
+        """
+        Clears session-scoped memory.
+        """
         self.memory.clear_short()

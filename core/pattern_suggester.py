@@ -1,4 +1,5 @@
-# Responsibility: Proposes tentative abstract patterns from context; never stores or asserts them.
+# Responsibility: Proposes tentative abstract patterns from context;
+# never stores or asserts them.
 
 from .config import MIN_CONTEXT_FOR_PATTERN
 
@@ -11,36 +12,51 @@ class PatternSuggester:
         "yesterday",
         "today",
         "tomorrow",
-        "am",
-        "pm",
+        "am ",
+        "pm ",
         "202",
         ":"
     ]
 
-    def suggest(self, recent_context: list[str]) -> str | None:
-        if len(recent_context) < 2:
+    def suggest(self, recent_context: list[str]) -> dict | None:
+        """
+        Suggests an abstract pattern based on recent short-term context.
+        Returns a structured pattern dict or None.
+        """
+
+        # Guard 1: not enough context
+        if len(recent_context) < MIN_CONTEXT_FOR_PATTERN:
             return None
-
-
 
         text = " ".join(recent_context).lower()
-        generated_pattern = None
+        pattern_text = None
 
+        # --- pattern detection rules ---
         if "avoid" in text and "start" in text:
-            generated_pattern = "Starting feels harder when pressure is high."
+            pattern_text = "Starting feels harder when pressure is high."
 
         elif "tired" in text and "scroll" in text:
-            generated_pattern = "Low energy leads to avoidance through scrolling."
+            pattern_text = "Low energy leads to avoidance through scrolling."
 
         elif "overwhelmed" in text and "too much" in text:
-            generated_pattern = "Tasks feel heavier when they are undefined."
+            pattern_text = "Tasks feel heavier when they are undefined."
 
-        if not generated_pattern:
+        # Guard 2: no pattern detected
+        if not pattern_text:
             return None
 
-        candidate = generated_pattern.lower()
+        lowered_pattern = pattern_text.lower()
 
-        if any(marker in candidate for marker in self.FORBIDDEN_MARKERS):
+        # Guard 3: block event / date leakage
+        if any(marker in lowered_pattern for marker in self.FORBIDDEN_MARKERS):
             return None
 
-        return generated_pattern
+        # Confidence grows with evidence, capped safely
+        evidence_count = len(recent_context)
+        confidence = min(0.4 + 0.15 * evidence_count, 0.9)
+
+        return {
+            "text": pattern_text,
+            "confidence": confidence,
+            "evidence_count": evidence_count
+        }
