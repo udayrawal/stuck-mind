@@ -4,11 +4,13 @@
 from .memory_controller import MemoryController
 from .memory import Memory
 from .journal import Journal
+from .brain import Brain
 from .memory_interface import MemoryInterface
 from .emotion_interpreter import EmotionalInterpreter
 from .response_guide import ResponseGuide
 from .pattern_suggester import PatternSuggester
 from .config import SAFE_FALLBACK_RESPONSE
+from core import brain
 
 
 def on_session_start():
@@ -29,6 +31,7 @@ def chat_loop():
     journal = Journal()
     memory = Memory()
     rules = MemoryInterface()
+    brain = Brain()
     pattern_suggester = PatternSuggester()
 
     memory_controller = MemoryController(
@@ -61,6 +64,8 @@ def chat_loop():
         # 2. Emotional response
         try:
             state = emotion_interpreter.infer(raw_input)
+            mode = brain.decide(state, memory.get_context())
+            
             response = response_guide.respond(
                 state=state,
                 context=memory.get_context()

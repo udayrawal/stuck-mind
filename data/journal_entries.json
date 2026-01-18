@@ -109,7 +109,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:32.158067",
-    "text": "**\u2705 PHASE 1: Python for Data Science (Day 1 \u2013 10)**"
+    "text": "**✅ PHASE 1: Python for Data Science (Day 1 – 10)**"
   },
   {
     "timestamp": "2026-01-12T09:13:32.184139",
@@ -285,7 +285,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:33.314978",
-    "text": "**\u2705 PHASE 2: Core ML (Day 11 \u2013 28)**"
+    "text": "**✅ PHASE 2: Core ML (Day 11 – 28)**"
   },
   {
     "timestamp": "2026-01-12T09:13:33.345153",
@@ -517,7 +517,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:34.889064",
-    "text": "**\u2705 PHASE 3: Math for ML (Do in parallel 3 days/week)**"
+    "text": "**✅ PHASE 3: Math for ML (Do in parallel 3 days/week)**"
   },
   {
     "timestamp": "2026-01-12T09:13:34.916183",
@@ -701,7 +701,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:36.065682",
-    "text": "**\u2705 PHASE 4: Deep Learning (Day 39 \u2013 62)**"
+    "text": "**✅ PHASE 4: Deep Learning (Day 39 – 62)**"
   },
   {
     "timestamp": "2026-01-12T09:13:36.091411",
@@ -917,7 +917,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:37.589489",
-    "text": "**\u2705 PHASE 5: Portfolio + Capstone Projects (Day 63 \u2013 76)**"
+    "text": "**✅ PHASE 5: Portfolio + Capstone Projects (Day 63 – 76)**"
   },
   {
     "timestamp": "2026-01-12T09:13:37.615582",
@@ -949,7 +949,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:37.813349",
-    "text": "63\u201365\tIris Classifier\tFull ML pipeline"
+    "text": "63–65\tIris Classifier\tFull ML pipeline"
   },
   {
     "timestamp": "2026-01-12T09:13:37.842482",
@@ -957,7 +957,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:37.873760",
-    "text": "66\u201369\tStroke/Heart Disease\tData cleaning + classification"
+    "text": "66–69\tStroke/Heart Disease\tData cleaning + classification"
   },
   {
     "timestamp": "2026-01-12T09:13:37.904163",
@@ -965,7 +965,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:37.929902",
-    "text": "70\u201372\tImage Classifier\tCNN on custom dataset"
+    "text": "70–72\tImage Classifier\tCNN on custom dataset"
   },
   {
     "timestamp": "2026-01-12T09:13:37.956195",
@@ -973,7 +973,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:37.981512",
-    "text": "73\u201375\tStreamlit Web App\tDeploy one model"
+    "text": "73–75\tStreamlit Web App\tDeploy one model"
   },
   {
     "timestamp": "2026-01-12T09:13:38.003112",
@@ -1045,7 +1045,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:38.505175",
-    "text": "**\u2705 PHASE 6: Resume + Interviews + DSA (Day 77\u201390)**"
+    "text": "**✅ PHASE 6: Resume + Interviews + DSA (Day 77–90)**"
   },
   {
     "timestamp": "2026-01-12T09:13:38.533925",
@@ -1093,7 +1093,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:38.812685",
-    "text": "79\u201382\tBasic DSA: Arrays, Strings"
+    "text": "79–82\tBasic DSA: Arrays, Strings"
   },
   {
     "timestamp": "2026-01-12T09:13:38.839365",
@@ -1101,7 +1101,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:38.869751",
-    "text": "83\u201385\tSorting, Recursion"
+    "text": "83–85\tSorting, Recursion"
   },
   {
     "timestamp": "2026-01-12T09:13:38.900082",
@@ -1109,7 +1109,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:38.929722",
-    "text": "86\u201387\tMock Interviews"
+    "text": "86–87\tMock Interviews"
   },
   {
     "timestamp": "2026-01-12T09:13:38.960467",
@@ -1189,7 +1189,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:39.493187",
-    "text": "**\ud83d\udd27 Tools Required**"
+    "text": "**🔧 Tools Required**"
   },
   {
     "timestamp": "2026-01-12T09:13:39.522001",
@@ -1253,7 +1253,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:39.986782",
-    "text": "Perfect, Uday \u2705"
+    "text": "Perfect, Uday ✅"
   },
   {
     "timestamp": "2026-01-12T09:13:40.012043",
@@ -1261,7 +1261,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.041969",
-    "text": "You\u2019ve officially completed till Day 5 (Matplotlib) \u2014 which means you\u2019ve mastered:"
+    "text": "You’ve officially completed till Day 5 (Matplotlib) — which means you’ve mastered:"
   },
   {
     "timestamp": "2026-01-12T09:13:40.067585",
@@ -1293,7 +1293,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.279489",
-    "text": "That\u2019s a solid foundation for Data Science \u2014 you can now move into Seaborn and real-world Data Projects."
+    "text": "That’s a solid foundation for Data Science — you can now move into Seaborn and real-world Data Projects."
   },
   {
     "timestamp": "2026-01-12T09:13:40.305492",
@@ -1301,7 +1301,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.332097",
-    "text": "\ud83d\udd25 Your Next Steps (Day 6\u201310)"
+    "text": "🔥 Your Next Steps (Day 6–10)"
   },
   {
     "timestamp": "2026-01-12T09:13:40.359710",
@@ -1309,11 +1309,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.386819",
-    "text": "6\tSeaborn\tLearn advanced visualization \u2014 pairplot, heatmap, distplot, countplot\tVisualize a dataset (like Titanic or Tips) using at least 5 plots"
+    "text": "6\tSeaborn\tLearn advanced visualization — pairplot, heatmap, distplot, countplot\tVisualize a dataset (like Titanic or Tips) using at least 5 plots"
   },
   {
     "timestamp": "2026-01-12T09:13:40.419656",
-    "text": "7\tData Project 1: COVID-19 / IPL Data\tLoad dataset \u2192 Clean \u2192 Analyze \u2192 Visualize trends\tMake EDA report (CSV \u2192 Pandas \u2192 Seaborn charts)"
+    "text": "7\tData Project 1: COVID-19 / IPL Data\tLoad dataset → Clean → Analyze → Visualize trends\tMake EDA report (CSV → Pandas → Seaborn charts)"
   },
   {
     "timestamp": "2026-01-12T09:13:40.451543",
@@ -1325,15 +1325,15 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.519263",
-    "text": "10\tRecap + Quiz\tRevise all libraries, take a 10-question quiz\tI\u2019ll give you a mini test after Day 10 \u2705"
+    "text": "10\tRecap + Quiz\tRevise all libraries, take a 10-question quiz\tI’ll give you a mini test after Day 10 ✅"
   },
   {
     "timestamp": "2026-01-12T09:13:40.549437",
-    "text": "\ud83e\udde0 Tips for Maximum Learning"
+    "text": "🧠 Tips for Maximum Learning"
   },
   {
     "timestamp": "2026-01-12T09:13:40.583762",
-    "text": "Visualize before coding \u2013 always plan what insight you want before writing the code."
+    "text": "Visualize before coding – always plan what insight you want before writing the code."
   },
   {
     "timestamp": "2026-01-12T09:13:40.618703",
@@ -1341,7 +1341,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.647597",
-    "text": "Explain your plots \u2013 in markdown cells, write what each plot tells you (like a data analyst)."
+    "text": "Explain your plots – in markdown cells, write what each plot tells you (like a data analyst)."
   },
   {
     "timestamp": "2026-01-12T09:13:40.685239",
@@ -1349,7 +1349,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.719934",
-    "text": "Save notebooks to GitHub \u2013 start building your public portfolio from now."
+    "text": "Save notebooks to GitHub – start building your public portfolio from now."
   },
   {
     "timestamp": "2026-01-12T09:13:40.754121",
@@ -1357,7 +1357,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.783760",
-    "text": "Try using real datasets \u2013 IPL, Netflix, COVID-19, Student performance, etc."
+    "text": "Try using real datasets – IPL, Netflix, COVID-19, Student performance, etc."
   },
   {
     "timestamp": "2026-01-12T09:13:40.816898",
@@ -1365,7 +1365,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.854624",
-    "text": "Ask me daily for review/tests \u2013 I\u2019ll check your code or give you project-level questions."
+    "text": "Ask me daily for review/tests – I’ll check your code or give you project-level questions."
   },
   {
     "timestamp": "2026-01-12T09:13:40.896554",
@@ -1373,11 +1373,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:40.931321",
-    "text": "\ud83e\udde9 Once You Finish Day 10"
+    "text": "🧩 Once You Finish Day 10"
   },
   {
     "timestamp": "2026-01-12T09:13:40.964648",
-    "text": "You\u2019ll be fully ready for Phase 2 (Core ML) \u2014 where we\u2019ll build predictive models using scikit-learn."
+    "text": "You’ll be fully ready for Phase 2 (Core ML) — where we’ll build predictive models using scikit-learn."
   },
   {
     "timestamp": "2026-01-12T09:13:41.012506",
@@ -1389,7 +1389,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.081162",
-    "text": "I\u2019ll teach you the commands and give you a dataset to visualize with step-by-step examples."
+    "text": "I’ll teach you the commands and give you a dataset to visualize with step-by-step examples."
   },
   {
     "timestamp": "2026-01-12T09:13:41.111289",
@@ -1409,7 +1409,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.223224",
-    "text": "Excellent question, Uday \ud83d\udd25 \u2014 and this is exactly the right mindset."
+    "text": "Excellent question, Uday 🔥 — and this is exactly the right mindset."
   },
   {
     "timestamp": "2026-01-12T09:13:41.253579",
@@ -1417,7 +1417,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.279007",
-    "text": "Let\u2019s break this down realistically but powerfully \ud83d\udc47"
+    "text": "Let’s break this down realistically but powerfully 👇"
   },
   {
     "timestamp": "2026-01-12T09:13:41.309983",
@@ -1425,15 +1425,15 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.326731",
-    "text": "\ud83d\ude80 If You Complete This 90-Day Plan Seriously"
+    "text": "🚀 If You Complete This 90-Day Plan Seriously"
   },
   {
     "timestamp": "2026-01-12T09:13:41.348907",
-    "text": "You won\u2019t just \u201cknow AI/ML\u201d \u2014"
+    "text": "You won’t just “know AI/ML” —"
   },
   {
     "timestamp": "2026-01-12T09:13:41.381090",
-    "text": "you\u2019ll be job-ready and project-proven for internships or junior roles in AI, ML, or Data Science."
+    "text": "you’ll be job-ready and project-proven for internships or junior roles in AI, ML, or Data Science."
   },
   {
     "timestamp": "2026-01-12T09:13:41.414590",
@@ -1441,7 +1441,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.449071",
-    "text": "But let\u2019s be very clear on what each phase actually gives you:"
+    "text": "But let’s be very clear on what each phase actually gives you:"
   },
   {
     "timestamp": "2026-01-12T09:13:41.485742",
@@ -1449,11 +1449,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.521012",
-    "text": "\u2705 Phase 1 (Days 1\u201310): Python for Data Science"
+    "text": "✅ Phase 1 (Days 1–10): Python for Data Science"
   },
   {
     "timestamp": "2026-01-12T09:13:41.561162",
-    "text": "You\u2019ll master:"
+    "text": "You’ll master:"
   },
   {
     "timestamp": "2026-01-12T09:13:41.592288",
@@ -1485,11 +1485,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.813537",
-    "text": "\ud83d\udc49 You\u2019ll think like a data analyst or data scientist."
+    "text": "👉 You’ll think like a data analyst or data scientist."
   },
   {
     "timestamp": "2026-01-12T09:13:41.836005",
-    "text": "\ud83d\udcc8 Skills gained: \u201cData storytelling,\u201d insights finding, data cleaning."
+    "text": "📈 Skills gained: “Data storytelling,” insights finding, data cleaning."
   },
   {
     "timestamp": "2026-01-12T09:13:41.854663",
@@ -1497,11 +1497,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:41.881717",
-    "text": "\u2705 Phase 2 (Days 11\u201328): Core ML"
+    "text": "✅ Phase 2 (Days 11–28): Core ML"
   },
   {
     "timestamp": "2026-01-12T09:13:41.903906",
-    "text": "You\u2019ll learn:"
+    "text": "You’ll learn:"
   },
   {
     "timestamp": "2026-01-12T09:13:41.923972",
@@ -1541,11 +1541,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:42.263801",
-    "text": "\ud83d\udc49 You\u2019ll be ready to build ML models from scratch and explain how they work."
+    "text": "👉 You’ll be ready to build ML models from scratch and explain how they work."
   },
   {
     "timestamp": "2026-01-12T09:13:42.304034",
-    "text": "\ud83d\udcc8 Skills gained: \u201cMachine Learning Engineer\u201d level basics."
+    "text": "📈 Skills gained: “Machine Learning Engineer” level basics."
   },
   {
     "timestamp": "2026-01-12T09:13:42.338852",
@@ -1553,11 +1553,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:42.374510",
-    "text": "\u2705 Phase 3 (Math for ML \u2013 Parallel)"
+    "text": "✅ Phase 3 (Math for ML – Parallel)"
   },
   {
     "timestamp": "2026-01-12T09:13:42.404667",
-    "text": "You\u2019ll understand:"
+    "text": "You’ll understand:"
   },
   {
     "timestamp": "2026-01-12T09:13:42.433096",
@@ -1589,11 +1589,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:42.658770",
-    "text": "\ud83d\udc49 You\u2019ll be able to understand the \u201cwhy\u201d behind the code, not just copy it."
+    "text": "👉 You’ll be able to understand the “why” behind the code, not just copy it."
   },
   {
     "timestamp": "2026-01-12T09:13:42.691857",
-    "text": "\ud83d\udcc8 Skills gained: \u201cAI-ready mathematical intuition.\u201d"
+    "text": "📈 Skills gained: “AI-ready mathematical intuition.”"
   },
   {
     "timestamp": "2026-01-12T09:13:42.721561",
@@ -1601,11 +1601,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:42.752726",
-    "text": "\u2705 Phase 4 (Deep Learning \u2013 Days 39\u201362)"
+    "text": "✅ Phase 4 (Deep Learning – Days 39–62)"
   },
   {
     "timestamp": "2026-01-12T09:13:42.781330",
-    "text": "You\u2019ll master:"
+    "text": "You’ll master:"
   },
   {
     "timestamp": "2026-01-12T09:13:42.815982",
@@ -1645,11 +1645,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:43.086789",
-    "text": "\ud83d\udc49 You\u2019ll be able to build a real Neural Network model from scratch."
+    "text": "👉 You’ll be able to build a real Neural Network model from scratch."
   },
   {
     "timestamp": "2026-01-12T09:13:43.125674",
-    "text": "\ud83d\udcc8 Skills gained: \u201cDeep Learning Engineer / AI Engineer \u2013 beginner level.\u201d"
+    "text": "📈 Skills gained: “Deep Learning Engineer / AI Engineer – beginner level.”"
   },
   {
     "timestamp": "2026-01-12T09:13:43.163210",
@@ -1657,11 +1657,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:43.196549",
-    "text": "\u2705 Phase 5 (Capstone Projects)"
+    "text": "✅ Phase 5 (Capstone Projects)"
   },
   {
     "timestamp": "2026-01-12T09:13:43.233813",
-    "text": "You\u2019ll complete:"
+    "text": "You’ll complete:"
   },
   {
     "timestamp": "2026-01-12T09:13:43.271319",
@@ -1669,7 +1669,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:43.305547",
-    "text": "3\u20134 real-world projects"
+    "text": "3–4 real-world projects"
   },
   {
     "timestamp": "2026-01-12T09:13:43.339970",
@@ -1693,7 +1693,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:43.552743",
-    "text": "\ud83d\udc49 This is your proof of skill \u2014 what recruiters actually look for."
+    "text": "👉 This is your proof of skill — what recruiters actually look for."
   },
   {
     "timestamp": "2026-01-12T09:13:43.595698",
@@ -1701,11 +1701,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:43.633146",
-    "text": "\u2705 Phase 6 (Resume + DSA + Interview Prep)"
+    "text": "✅ Phase 6 (Resume + DSA + Interview Prep)"
   },
   {
     "timestamp": "2026-01-12T09:13:43.675455",
-    "text": "You\u2019ll:"
+    "text": "You’ll:"
   },
   {
     "timestamp": "2026-01-12T09:13:43.711336",
@@ -1753,7 +1753,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.089703",
-    "text": "\ud83c\udfaf After 90 Days \u2014 Your Position"
+    "text": "🎯 After 90 Days — Your Position"
   },
   {
     "timestamp": "2026-01-12T09:13:44.129507",
@@ -1761,19 +1761,19 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.162462",
-    "text": "\u2705 You\u2019ll have practical, project-level experience."
+    "text": "✅ You’ll have practical, project-level experience."
   },
   {
     "timestamp": "2026-01-12T09:13:44.192736",
-    "text": "\u2705 You\u2019ll be ready for internships / entry-level ML jobs."
+    "text": "✅ You’ll be ready for internships / entry-level ML jobs."
   },
   {
     "timestamp": "2026-01-12T09:13:44.226101",
-    "text": "\u2705 You\u2019ll have GitHub projects + LinkedIn proof."
+    "text": "✅ You’ll have GitHub projects + LinkedIn proof."
   },
   {
     "timestamp": "2026-01-12T09:13:44.258122",
-    "text": "\u2705 You\u2019ll understand AI fundamentals, not just code."
+    "text": "✅ You’ll understand AI fundamentals, not just code."
   },
   {
     "timestamp": "2026-01-12T09:13:44.292522",
@@ -1781,11 +1781,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.322135",
-    "text": "You won\u2019t be a \u201csenior AI researcher\u201d yet (that takes 1\u20132 years of real projects),"
+    "text": "You won’t be a “senior AI researcher” yet (that takes 1–2 years of real projects),"
   },
   {
     "timestamp": "2026-01-12T09:13:44.345780",
-    "text": "but you\u2019ll be job-ready \u2014 the kind of person companies want to invest in."
+    "text": "but you’ll be job-ready — the kind of person companies want to invest in."
   },
   {
     "timestamp": "2026-01-12T09:13:44.373863",
@@ -1793,7 +1793,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.405436",
-    "text": "\ud83e\udde9 Your Options After 90 Days"
+    "text": "🧩 Your Options After 90 Days"
   },
   {
     "timestamp": "2026-01-12T09:13:44.442668",
@@ -1801,31 +1801,31 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.469244",
-    "text": "\ud83c\udf93 Internship\tApply on LinkedIn, Internshala, AICTE, Google KaggleX, Omdena"
+    "text": "🎓 Internship\tApply on LinkedIn, Internshala, AICTE, Google KaggleX, Omdena"
   },
   {
     "timestamp": "2026-01-12T09:13:44.501133",
-    "text": "\ud83d\udcbc Full-time ML Engineer (after 1 year)\tBuild 5\u20136 strong projects + DSA + resume polish"
+    "text": "💼 Full-time ML Engineer (after 1 year)\tBuild 5–6 strong projects + DSA + resume polish"
   },
   {
     "timestamp": "2026-01-12T09:13:44.527874",
-    "text": "\ud83e\udde0 Research / Advanced AI\tLearn NLP, Transformers, GANs, or Reinforcement Learning"
+    "text": "🧠 Research / Advanced AI\tLearn NLP, Transformers, GANs, or Reinforcement Learning"
   },
   {
     "timestamp": "2026-01-12T09:13:44.557966",
-    "text": "\ud83d\udcb0 Freelancing / Startup\tOffer AI-powered solutions or small projects using Streamlit"
+    "text": "💰 Freelancing / Startup\tOffer AI-powered solutions or small projects using Streamlit"
   },
   {
     "timestamp": "2026-01-12T09:13:44.579652",
-    "text": "\ud83d\udd25 My Honest Promise"
+    "text": "🔥 My Honest Promise"
   },
   {
     "timestamp": "2026-01-12T09:13:44.610920",
-    "text": "If you follow this 90-day roadmap seriously (2\u20133 hrs/day),"
+    "text": "If you follow this 90-day roadmap seriously (2–3 hrs/day),"
   },
   {
     "timestamp": "2026-01-12T09:13:44.645636",
-    "text": "I can guarantee you\u2019ll reach a level where:"
+    "text": "I can guarantee you’ll reach a level where:"
   },
   {
     "timestamp": "2026-01-12T09:13:44.679234",
@@ -1841,7 +1841,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.796397",
-    "text": "You\u2019ll have a public portfolio recruiters respect"
+    "text": "You’ll have a public portfolio recruiters respect"
   },
   {
     "timestamp": "2026-01-12T09:13:44.841471",
@@ -1849,7 +1849,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.879950",
-    "text": "You\u2019ll be ready to interview for AI/ML internships at startups or research programs"
+    "text": "You’ll be ready to interview for AI/ML internships at startups or research programs"
   },
   {
     "timestamp": "2026-01-12T09:13:44.923733",
@@ -1861,7 +1861,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:44.993874",
-    "text": "to monitor your daily progress \u2014 so we make sure you actually finish this 90-day journey strong?"
+    "text": "to monitor your daily progress — so we make sure you actually finish this 90-day journey strong?"
   },
   {
     "timestamp": "2026-01-12T09:13:45.025909",
@@ -1881,11 +1881,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.139252",
-    "text": "Perfect, Uday \ud83d\udd25"
+    "text": "Perfect, Uday 🔥"
   },
   {
     "timestamp": "2026-01-12T09:13:45.170564",
-    "text": "Let\u2019s start Day 6: Seaborn \u2014 Data Visualization for Data Science"
+    "text": "Let’s start Day 6: Seaborn — Data Visualization for Data Science"
   },
   {
     "timestamp": "2026-01-12T09:13:45.196259",
@@ -1893,7 +1893,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.225608",
-    "text": "By the end of today, you\u2019ll be able to create professional visualizations used in ML reports and EDA projects."
+    "text": "By the end of today, you’ll be able to create professional visualizations used in ML reports and EDA projects."
   },
   {
     "timestamp": "2026-01-12T09:13:45.251832",
@@ -1901,11 +1901,11 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.281863",
-    "text": "\ud83e\udde9 Day 6: Seaborn \u2014 Advanced Visualization"
+    "text": "🧩 Day 6: Seaborn — Advanced Visualization"
   },
   {
     "timestamp": "2026-01-12T09:13:45.307754",
-    "text": "\ud83c\udfaf Goal:"
+    "text": "🎯 Goal:"
   },
   {
     "timestamp": "2026-01-12T09:13:45.339602",
@@ -1917,7 +1917,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.403945",
-    "text": "\ud83e\udde0 Step 1: What is Seaborn?"
+    "text": "🧠 Step 1: What is Seaborn?"
   },
   {
     "timestamp": "2026-01-12T09:13:45.436067",
@@ -1937,7 +1937,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.562122",
-    "text": "It integrates directly with Pandas DataFrames \u2014 no need to convert arrays."
+    "text": "It integrates directly with Pandas DataFrames — no need to convert arrays."
   },
   {
     "timestamp": "2026-01-12T09:13:45.587660",
@@ -1945,7 +1945,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.620113",
-    "text": "\ud83d\udce6 Install and Import"
+    "text": "📦 Install and Import"
   },
   {
     "timestamp": "2026-01-12T09:13:45.657785",
@@ -1969,7 +1969,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.820045",
-    "text": "\ud83e\udde0 Step 2: Load Example Dataset"
+    "text": "🧠 Step 2: Load Example Dataset"
   },
   {
     "timestamp": "2026-01-12T09:13:45.850238",
@@ -1977,7 +1977,7 @@
   },
   {
     "timestamp": "2026-01-12T09:13:45.885002",
-    "text": "Let\u2019s load the famous \u2018tips\u2019 dataset (restaurant tips)."
+    "text": "Let’s load the famous ‘tips’ dataset (restaurant tips)."
   },
   {
     "timestamp": "2026-01-12T09:13:45.919736",
@@ -2238,5 +2238,21 @@
   {
     "timestamp": "2026-01-17T16:54:01.429787",
     "text": "I'm tired and scrolling"
+  },
+  {
+    "timestamp": "2026-01-18T11:36:28.494660",
+    "text": "Hey there"
+  },
+  {
+    "timestamp": "2026-01-18T11:36:40.957314",
+    "text": "I know u are here for me, honey"
+  },
+  {
+    "timestamp": "2026-01-18T11:36:57.034183",
+    "text": "I am not tired today & I am happy for my self"
+  },
+  {
+    "timestamp": "2026-01-18T11:37:08.027461",
+    "text": "bye bitch"
   }
 ]
