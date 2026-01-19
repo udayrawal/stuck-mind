@@ -11,14 +11,15 @@ class ResponseGuide:
     Does NOT store or access memory.
     """
 
-    def respond(self, state: str, context: dict) -> str:
-        """
-        Generate a safe, non-directive response.
+    def respond(self, state: str, context: dict, mode: str = "neutral") -> str:
+        if mode == "gentle":
+            return "We can slow this down."
 
-        `context` is intentionally unused for now.
-        It exists for future expansion (tone modulation, reflection).
-        """
+        if mode == "grounding":
+            return "Let’s stay with what’s here."
 
+        # fallback to existing state logic
+        
         if state == "tired":
             response = "I hear how drained this feels."
 
@@ -28,22 +29,11 @@ class ResponseGuide:
         elif state == "anxious":
             response = "I’m here with this."
 
-        elif state == "avoidant":
-            response = "It sounds like you’re pulling away a bit."
-
-        elif state == "confused":
-            response = "It feels unclear right now."
-
-        elif state == "sad":
-            response = "I’m with you in this sadness."
-
-        elif state == "neutral":
-            response = "I’m here with you."
-
         else:
             response = "I’m listening."
 
         return response if self._is_safe(response) else SAFE_FALLBACK_RESPONSE
+
 
     def familiarity_message(self) -> str:
         """

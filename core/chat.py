@@ -1,6 +1,7 @@
 # Responsibility: Coordinates session flow and component interaction;
 # contains no business logic.
 
+from urllib import response
 from .memory_controller import MemoryController
 from .memory import Memory
 from .journal import Journal
@@ -65,10 +66,11 @@ def chat_loop():
         try:
             state = emotion_interpreter.infer(raw_input)
             mode = brain.decide(state, memory.get_context())
-            
+
             response = response_guide.respond(
                 state=state,
-                context=memory.get_context()
+                context=memory.get_context(),
+                mode=mode
             )
             print(response)
 

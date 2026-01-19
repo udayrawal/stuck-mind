@@ -1,29 +1,13 @@
-# Responsibility: Determines response intent from emotion and context.
-# Does NOT speak.
-# Does NOT store memory.
-
+# Responsibility: Decides response mode based on state and context.
+# Does NOT generate text.
+# Does NOT access memory directly.
 
 class Brain:
-    """
-    Chooses response direction based on emotion and context.
-    """
+    def decide(self, state: str, context: dict) -> str:
+        if state in {"tired", "overwhelmed"}:
+            return "gentle"
 
-    def decide(self, emotion: str, context: dict) -> str:
-        """
-        Returns a response mode.
-        This will guide ResponseGuide later.
-        """
-
-        if emotion in ["tired", "overwhelmed"]:
+        if state == "anxious":
             return "grounding"
 
-        if emotion in ["anxious", "sad"]:
-            return "presence"
-
-        if emotion in ["confused"]:
-            return "clarification"
-
-        if emotion in ["avoidant"]:
-            return "gentle_reflection"
-
-        return "presence"
+        return "neutral"
