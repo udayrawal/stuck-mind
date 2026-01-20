@@ -1,7 +1,7 @@
-# Responsibility: Coordinates session flow and component interaction;
-# contains no business logic.
+# Responsibility:
+# Coordinates session flow and component interaction.
+# Contains NO business logic.
 
-from urllib import response
 from .memory_controller import MemoryController
 from .memory import Memory
 from .journal import Journal
@@ -11,7 +11,6 @@ from .emotion_interpreter import EmotionalInterpreter
 from .response_guide import ResponseGuide
 from .pattern_suggester import PatternSuggester
 from .config import SAFE_FALLBACK_RESPONSE
-from core import brain
 
 
 def on_session_start():
@@ -28,7 +27,7 @@ def chat_loop():
     print("Stuck Mind is here.")
     print("Hi!, Uday go ahead, share whatever is on your mind.")
 
-    # ---- instantiate core components ----
+    # ---- core components ----
     journal = Journal()
     memory = Memory()
     rules = MemoryInterface()
@@ -45,9 +44,6 @@ def chat_loop():
     emotion_interpreter = EmotionalInterpreter()
     response_guide = ResponseGuide()
 
-    # Track which patterns were already offered this session
-    offered_patterns = set()
-
     while True:
         raw_input = input("> ").strip()
 
@@ -62,41 +58,33 @@ def chat_loop():
         # 1. Memory routing (always runs)
         memory_controller.process_input(raw_input)
 
-        # 2. Emotional response
+        # 2. Decide tone (via Brain)
         try:
             state = emotion_interpreter.infer(raw_input)
-            mode = brain.decide(state, memory.get_context())
+            tone = brain.decide(state, memory.get_context())
 
             response = response_guide.respond(
-                state=state,
-                context=memory.get_context(),
-                mode=mode
+                text=raw_input,
+                tone=tone
             )
             print(response)
 
-        except RuntimeError:
+        except Exception:
             print(SAFE_FALLBACK_RESPONSE)
             continue
 
-        # 3. Familiarity flow (ONLY if new pattern exists)
+        # 3. Familiarity flow (response-only + consent)
         candidate = memory_controller.long_term_candidate
 
         if candidate:
-            pattern_text = candidate["text"]
+            print(response_guide.familiarity_message())
 
-            if pattern_text not in offered_patterns:
-                print(response_guide.familiarity_message())
+            choice = input("Would you like me to remember this pattern? [y/n] ").strip().lower()
 
-                choice = input(
-                    "Would you like me to remember this pattern? [y/n] "
-                ).strip().lower()
+            if choice == "y":
+                memory.save_long(candidate["text"])
 
-                if choice == "y":
-                    memory.save_long(pattern_text)
-
-                offered_patterns.add(pattern_text)
-
-            # Always clear after handling
+            # Always clear
             memory_controller.long_term_candidate = None
 
 
