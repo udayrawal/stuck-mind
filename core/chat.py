@@ -10,7 +10,7 @@ from .memory_interface import MemoryInterface
 from .emotion_interpreter import EmotionalInterpreter
 from .response_guide import ResponseGuide
 from .pattern_suggester import PatternSuggester
-from .config import SAFE_FALLBACK_RESPONSE
+from .config import SAFE_FALLBACK_RESPONSE, ENABLE_AUDIO
 
 
 def on_session_start():
@@ -44,6 +44,12 @@ def chat_loop():
     emotion_interpreter = EmotionalInterpreter()
     response_guide = ResponseGuide()
 
+    # ---- optional audio (lazy init) ----
+    speaker = None
+    if ENABLE_AUDIO:
+        from .audio.local_tts import LocalTTSSpeaker
+        speaker = LocalTTSSpeaker()
+
     while True:
         raw_input = input("> ").strip()
 
@@ -58,7 +64,7 @@ def chat_loop():
         # 1. Memory routing (always runs)
         memory_controller.process_input(raw_input)
 
-        # 2. Decide tone (via Brain)
+        # 2. Decide tone + respond
         try:
             state = emotion_interpreter.infer(raw_input)
             tone = brain.decide(state, memory.get_context())
@@ -68,6 +74,9 @@ def chat_loop():
                 tone=tone
             )
             print(response)
+
+            if speaker:
+                speaker.speak(response, tone=tone)
 
         except Exception:
             print(SAFE_FALLBACK_RESPONSE)
@@ -79,12 +88,13 @@ def chat_loop():
         if candidate:
             print(response_guide.familiarity_message())
 
-            choice = input("Would you like me to remember this pattern? [y/n] ").strip().lower()
+            choice = input(
+                "Would you like me to remember this pattern? [y/n] "
+            ).strip().lower()
 
             if choice == "y":
                 memory.save_long(candidate["text"])
 
-            # Always clear
             memory_controller.long_term_candidate = None
 
 
