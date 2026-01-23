@@ -36,3 +36,7 @@ MIN_CONTEXT_FOR_PATTERN = 2
 # ---------- Fallback Response ----------
 
 SAFE_FALLBACK_RESPONSE = "I’m here. We can take this slowly."
+
+
+# ---------- Audio / TTS ----------
+ENABLE_AUDIO = False
